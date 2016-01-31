@@ -1,0 +1,19 @@
+#node-1 .content {
+  display:none;
+}
+#content-container {
+  section {
+    ul.nav-tabs {
+      display:none;
+    }
+    h1.page-header {
+      display:none;
+    }
+    h2.block-title {
+      display:none;
+    }
+  }
+}
+#node-2 {
+  background:url('images/sectionHomeResized.jpg');
+}
