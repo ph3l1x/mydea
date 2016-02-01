@@ -103,77 +103,7 @@
 
 
 
-      <div class="top-wrapper w-navigation">
-        <div class="top-wrapper wo-navigation">
-          <?php if (!empty($breadcrumb)): ?>
-            <div class="breadcrumb-wrapper wrapper <?php print $bento_m_dark; ?>">
-              <div class="breadcrumb-wrapper-inner">
-                <div id="breadcrumb-container" class="container">
-                  <div id="breadcrumb" class="region clearfix" >
-                    <div class="inner">
-                      <?php print $breadcrumb; ?>
-                    </div> <!-- .inner -->
-                  </div> <!-- #breadcrumb -->
-                </div> <!-- #breadcrumb-container -->
-              </div> <!-- .breadcrumb-wrapper-inner -->
-            </div> <!-- .breadcrumb-wrapper -->
-          <?php endif; ?>
 
-          <?php if ($secondary_menu): ?>
-            <div id="secondary-wrapper" class="secondary-wrapper wrapper <?php print $bento_m_dark; ?>">
-              <div id="secondary-container" class="container <?php print $bento_bcs;?>">
-                <div class="inner">
-                  <div id="secondary-navigation" class="secondary-navigation <?php if ($page['drawer']): ?>drawer-nav<?php endif;?>">
-                    <div class="inner-inner">
-                      <?php print theme('links__system_secondary_menu', array('links' => $secondary_menu, 'attributes' => array('id' => 'secondary-menu', 'class' => array('links', 'inline', 'clearfix')))); ?>
-                    </div> <!--.inner-inner -->
-                  </div> <!--#secondary-navigation -->
-                </div> <!-- .inner -->
-              </div> <!-- #secondary-container -->
-            </div> <!-- #secondary-wrapper -->
-          <?php endif; ?>
-
-          <header id="header-wrapper" class="header-wrapper wrapper <?php print $bento_header_dark; print ' '; print $bento_bph; ?>">
-            <div class="header-wrapper-inner">
-              <div id="header-container" class="container <?php print $bento_bch;?>">
-                <div class="header-inner">
-
-
-                  <div id="site-info" class="site-info col-xs-12 col-sm-5 col-lg-4">
-                    <div class="inner">
-
-                      <?php if ($logo): ?>
-                        <div class="logo">
-                          <a class="logo ol-xs-5" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-                            <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
-                        </div> <!-- .logo -->
-                      <?php endif; ?>
-
-                      <?php if (!empty($site_name)): ?>
-                        <div class="site-name">
-                          <a class="name ol-xs-5" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
-                        </div> <!-- .site-name -->
-                      <?php endif; ?>
-
-                      <?php if (!empty($site_slogan)): ?>
-                        <div class="site-slogan">
-                          <span class="slogan ol-xs-5"><?php print $site_slogan; ?></span>
-                        </div> <!-- .site-slogan -->
-                      <?php endif; ?>
-
-                    </div> <!-- .inner -->
-                  </div> <!-- .site-info -->
-
-                  <div id="header" class="header-region region <?php print $bento_brh;?> col-xs-12 col-sm-7 col-lg-8">
-                    <div class="inner">
-                      <?php print render($page['header']); ?>
-                    </div>
-                  </div>
-                </div> <!-- .header-inner -->
-              </div> <!-- #header-container -->
-            </div> <!-- .header-wrapper-inner -->
-          </header> <!-- #header-wrapper -->
-        </div> <!-- .topper-wrapper .wo-navigation-->
 
         <?php if ($main_menu): // added ! so that the menu does not show up. ?>
           <nav id="main-navigation-wrapper" class="main-navigation-wrapper wrapper desktop <?php print $bento_m_dark; ?>">
