@@ -6,7 +6,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/mydea/css/sass/style.scss" afterPath="$PROJECT_DIR$/sites/all/themes/mydea/css/sass/style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/mydea/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/mydea/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/mydea/css/style.min.css" afterPath="$PROJECT_DIR$/sites/all/themes/mydea/css/style.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/mydea/templates/page.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/mydea/templates/page.tpl.php" />
     </list>
     <ignored path="mydea.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,9 +33,14 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/mydea/css/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34732825">
-              <caret line="171" column="13" selection-start-line="171" selection-start-column="13" selection-end-line="171" selection-end-column="13" />
-              <folding />
+            <state vertical-scroll-proportion="0.7251908">
+              <caret line="346" column="41" selection-start-line="346" selection-start-column="41" selection-end-line="346" selection-end-column="41" />
+              <folding>
+                <element signature="e#2681#3014#0" expanded="false" />
+                <element signature="e#3058#3546#0" expanded="false" />
+                <element signature="e#3590#4192#0" expanded="false" />
+                <element signature="e#4236#4893#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,12 +67,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="delete.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/mydea/css/images/delete.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.74074">
+              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -83,8 +98,9 @@
         <option value="$PROJECT_DIR$/sites/all/themes/mydea/css/slideshow.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/mydea/templates/node.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/mydea/templates/page.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/themes/mydea/css/style.min.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/mydea/css/images/delete.html" />
         <option value="$PROJECT_DIR$/sites/all/themes/mydea/css/sass/style.scss" />
+        <option value="$PROJECT_DIR$/sites/all/themes/mydea/css/style.min.css" />
       </list>
     </option>
   </component>
@@ -100,10 +116,13 @@
       </GulpfileState>
     </gulpfiles>
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="70" />
-    <option name="y" value="63" />
+    <option name="x" value="65" />
+    <option name="y" value="71" />
     <option name="width" value="1832" />
     <option name="height" value="963" />
   </component>
@@ -325,6 +344,40 @@
               <option name="myItemId" value="all" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mydea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mydea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mydea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -337,6 +390,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -384,6 +438,9 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b7d73851-549c-4d95-8870-29aa977f5c19" name="Default" comment="" />
@@ -394,7 +451,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="70" y="63" width="1832" height="963" extended-state="0" />
+    <frame x="65" y="71" width="1832" height="963" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290993" sideWeight="0.49776036" order="7" side_tool="false" content_ui="tabs" />
@@ -420,6 +477,14 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -432,7 +497,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#2681#3014#0" expanded="false" />
+            <element signature="e#3058#3546#0" expanded="false" />
+            <element signature="e#3590#4192#0" expanded="false" />
+            <element signature="e#4236#4893#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -458,6 +528,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -465,6 +536,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -514,6 +586,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/mydea/css/images/delete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.74074">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/mydea/css/style.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -524,9 +604,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/mydea/css/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34732825">
-          <caret line="171" column="13" selection-start-line="171" selection-start-column="13" selection-end-line="171" selection-end-column="13" />
-          <folding />
+        <state vertical-scroll-proportion="0.7251908">
+          <caret line="346" column="41" selection-start-line="346" selection-start-column="41" selection-end-line="346" selection-end-column="41" />
+          <folding>
+            <element signature="e#2681#3014#0" expanded="false" />
+            <element signature="e#3058#3546#0" expanded="false" />
+            <element signature="e#3590#4192#0" expanded="false" />
+            <element signature="e#4236#4893#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

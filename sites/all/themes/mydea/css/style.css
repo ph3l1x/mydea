@@ -4,6 +4,15 @@
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'Lato-Black';
+  src: url('fonts/Lato-Black.eot?#iefix') format('embedded-opentype'), url('fonts/Lato-Black.woff') format('woff'), url('fonts/Lato-Black.ttf') format('truetype'), url('fonts/Lato-Black.svg#Lato-Black') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+.block.block-nodeblock {
+  margin-bottom: 0; }
+
 .front #content-wrapper {
   padding: 0; }
 .front .logo img {
@@ -27,7 +36,7 @@
   background-size: cover;
   background-position: center center; }
   #block-nodeblock-2 .block-inner {
-    background: rgba(112, 66, 20, 0.65);
+    background: rgba(0, 0, 0, 0.55);
     height: 100%;
     padding-top: 40px;
     text-align: center; }
@@ -70,7 +79,8 @@
       font-size: 30px;
       line-height: 50px; }
       #block-nodeblock-2 .block-inner .sections h2 span.h2span {
-        color: #FF0000; }
+        color: #FF0000;
+        font-family: Lato-Black; }
 
 @media only screen and (max-width: 1200px) {
   #block-nodeblock-2 .block-inner .sections .boxes-3 ul li {
@@ -117,11 +127,83 @@
       margin: 10px auto;
       height: 100px; }
       #block-nodeblock-2 .block-inner .sections .boxes-3 ul li div {
-        padding: 3px; }
+        padding: 25px;
+        line-height: 20px; }
   #block-nodeblock-2 .block-inner .sections h2 {
-    font-size: 24px;
-    line-height: 38px; } }
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: bold; } }
 
 /*******************************/
 /********** SECTION 2 **********/
 /*******************************/
+#block-nodeblock-3 {
+  background: url('images/sectionServicesResize.jpg');
+  background-size: cover;
+  background-position: center center; }
+  #block-nodeblock-3 .block-inner {
+    background: rgba(63, 76, 91, 0.65);
+    height: 100%;
+    padding-top: 40px;
+    text-align: center; }
+    #block-nodeblock-3 .block-inner .services_section h1 {
+      font-family: Lato-Regular;
+      font-size: 40px;
+      color: white;
+      line-height: 60px;
+      text-transform: uppercase; }
+    #block-nodeblock-3 .block-inner .services_section h2 {
+      font-family: Lato-Black;
+      font-size: 38px;
+      margin-top: 0;
+      text-transform: uppercase; }
+      #block-nodeblock-3 .block-inner .services_section h2 span {
+        color: #FF0000; }
+    #block-nodeblock-3 .block-inner .services_section .boxes-6 ul {
+      list-style: none;
+      margin: 60px auto auto 0;
+      width: 100%; }
+      #block-nodeblock-3 .block-inner .services_section .boxes-6 ul li {
+        display: inline-block;
+        width: 30%;
+        margin: 10px 0 30px 0;
+        padding: 0;
+        color: white;
+        font-size: 13px;
+        font-family: Arial;
+        font-weight: normal; }
+        #block-nodeblock-3 .block-inner .services_section .boxes-6 ul li .box-title {
+          font-family: Lato-Black;
+          font-size: 18px;
+          text-transform: uppercase;
+          margin-bottom: 10px; }
+        #block-nodeblock-3 .block-inner .services_section .boxes-6 ul li hr {
+          width: 30px;
+          border: 2px solid white; }
+        #block-nodeblock-3 .block-inner .services_section .boxes-6 ul li .services-box-readMore a {
+          color: white;
+          font-family: lato-Regular;
+          font-size: 20px; }
+        #block-nodeblock-3 .block-inner .services_section .boxes-6 ul li .services-box-readMore :hover {
+          color: #FF0000; }
+    #block-nodeblock-3 .block-inner .services_section .services-info {
+      font-family: Lato-Regular;
+      font-size: 22px;
+      text-transform: uppercase;
+      color: #ff0000; }
+      #block-nodeblock-3 .block-inner .services_section .services-info a {
+        color: #ff0000; }
+      #block-nodeblock-3 .block-inner .services_section .services-info :hover {
+        color: white; }
+    #block-nodeblock-3 .block-inner .services_section .services-readMore {
+      display: inline-block;
+      margin: 25px 0 40px 0; }
+      #block-nodeblock-3 .block-inner .services_section .services-readMore a {
+        font-family: Lato-Regular;
+        font-size: 25px;
+        display: block;
+        color: white;
+        background: #FF0000;
+        padding: 10px 30px; }
+      #block-nodeblock-3 .block-inner .services_section .services-readMore :hover {
+        background: rgba(255, 0, 0, 0.5); }
