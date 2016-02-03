@@ -1,0 +1,35 @@
+@media only screen and (max-width: 740px) {
+  /*******************************/
+  /********** SECTION 1 **********/
+  /*******************************/
+  #block-nodeblock-2 .logo img {
+    width: 40%; }
+  #block-nodeblock-2 .block-inner .sections div.textDiv {
+    width: 80%; }
+  #block-nodeblock-2 .block-inner .sections .boxes-3 ul {
+    padding-top: 20px; }
+    #block-nodeblock-2 .block-inner .sections .boxes-3 ul li {
+      width: 80%;
+      margin: 10px auto;
+      height: 100px; }
+      #block-nodeblock-2 .block-inner .sections .boxes-3 ul li div {
+        padding: 3px;
+        line-height: 39px; }
+  #block-nodeblock-2 .block-inner .sections h2 {
+    font-size: 26px; }
+  /*******************************/
+  /********** SECTION 2 **********/
+  /*******************************/
+  #block-nodeblock-3 .block-inner #node-3 .boxes-6 ul li {
+    width: 45%; }
+  #block-nodeblock-3 .block-inner #node-3 .services-info {
+    font-size: 17px; }
+  /*******************************/
+  /********** SECTION 3 **********/
+  /*******************************/
+  /*******************************/
+  /********** SECTION 4 **********/
+  /*******************************/
+  /*******************************/
+  /********** SECTION 5 **********/
+  /*******************************/ }

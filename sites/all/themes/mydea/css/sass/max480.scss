@@ -1,0 +1,109 @@
+@media only screen and (max-width: 480px) {
+
+  /*******************************/
+  /********** SECTION 1 **********/
+  /*******************************/
+  #block-nodeblock-2 {
+    .logo img {
+      width: 70%;
+    }
+
+    .block-inner {
+
+      .sections {
+        div.textDiv {
+          width: 80%;
+        }
+        .boxes-3 {
+          ul {
+            padding-top: 20px;
+            li {
+              // padding:0;
+              width: 80%;
+              margin: 10px auto;
+              height: 100px;
+              img {
+              }
+              div {
+                padding: 25px;
+                line-height: 20px;
+              }
+            }
+          }
+        }
+      }
+      .sections h2 {
+        font-size: 18px;
+        line-height: 32px;
+        font-weight: bold;
+      }
+    }
+  }
+
+
+
+  /*******************************/
+  /********** SECTION 2 **********/
+  /*******************************/
+  #block-nodeblock-3 {
+    .block-inner {
+      #node-3 {
+        .services_section {
+          h1 {
+          }
+          h2 {
+          }
+        }
+        .boxes-6 {
+          ul {
+            li {
+              width: 85%;
+              .box-title {
+                font-size:18px;
+              }
+              hr {
+              }
+              .services-box-readMore {
+                a {
+                }
+                :hover {
+                }
+              }
+            }
+          }
+        }
+        .services-info {
+          font-size:15px;
+          a {
+          }
+          :hover {
+          }
+        }
+        .services-readMore {
+          a {
+
+          }
+          :hover {
+          }
+        }
+      }
+    }
+  }
+
+
+  /*******************************/
+  /********** SECTION 3 **********/
+  /*******************************/
+
+
+
+  /*******************************/
+  /********** SECTION 4 **********/
+  /*******************************/
+
+
+
+  /*******************************/
+  /********** SECTION 5 **********/
+  /*******************************/
+}

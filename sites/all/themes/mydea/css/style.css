@@ -82,58 +82,6 @@
         color: #FF0000;
         font-family: Lato-Black; }
 
-@media only screen and (max-width: 1200px) {
-  #block-nodeblock-2 .block-inner .sections .boxes-3 ul li {
-    padding: 0 10px; } }
-
-@media only screen and (max-width: 990px) {
-  #block-nodeblock-2 .logo img {
-    width: 40%; }
-  #block-nodeblock-2 .block-inner .sections .boxes-3 ul {
-    padding-top: 20px; }
-    #block-nodeblock-2 .block-inner .sections .boxes-3 ul li {
-      padding: 0 10px;
-      width: 29%;
-      margin: 5px; }
-      #block-nodeblock-2 .block-inner .sections .boxes-3 ul li div {
-        padding: 5px; } }
-
-@media only screen and (max-width: 740px) {
-  #block-nodeblock-2 .logo img {
-    width: 40%; }
-  #block-nodeblock-2 .block-inner .sections div.textDiv {
-    width: 80%; }
-  #block-nodeblock-2 .block-inner .sections .boxes-3 ul {
-    padding-top: 20px; }
-    #block-nodeblock-2 .block-inner .sections .boxes-3 ul li {
-      width: 80%;
-      margin: 10px auto;
-      height: 100px; }
-      #block-nodeblock-2 .block-inner .sections .boxes-3 ul li div {
-        padding: 3px;
-        line-height: 39px; }
-  #block-nodeblock-2 .block-inner .sections h2 {
-    font-size: 26px; } }
-
-@media only screen and (max-width: 480px) {
-  #block-nodeblock-2 .logo img {
-    width: 70%; }
-  #block-nodeblock-2 .block-inner .sections div.textDiv {
-    width: 80%; }
-  #block-nodeblock-2 .block-inner .sections .boxes-3 ul {
-    padding-top: 20px; }
-    #block-nodeblock-2 .block-inner .sections .boxes-3 ul li {
-      width: 80%;
-      margin: 10px auto;
-      height: 100px; }
-      #block-nodeblock-2 .block-inner .sections .boxes-3 ul li div {
-        padding: 25px;
-        line-height: 20px; }
-  #block-nodeblock-2 .block-inner .sections h2 {
-    font-size: 18px;
-    line-height: 32px;
-    font-weight: bold; } }
-
 /*******************************/
 /********** SECTION 2 **********/
 /*******************************/

@@ -44,6 +44,10 @@ stylesheets[all][] = css/commerce.css
 stylesheets[all][] = css/misc.css
 stylesheets[all][] = css/feature-colors.css
 stylesheets[all][] = css/style.min.css
+stylesheets[all][] = css/max1200.min.css
+stylesheets[all][] = css/max990.min.css
+stylesheets[all][] = css/max740.min.css
+stylesheets[all][] = css/max480.min.css
 
 
 ;;;;;;;;;;;;;;;;;;;;;

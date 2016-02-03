@@ -16,7 +16,8 @@ gulp.task('default', ['sass', 'sassx']);
 
 gulp.task('sassx', function(done) {
 
- gulp.src('./sites/all/themes/mydea/css/sass/style.scss')
+ //gulp.src('./sites/all/themes/mydea/css/sass/style.scss')
+    gulp.src('./sites/all/themes/mydea/css/sass/**/*.scss')
    .pipe(sass({
         errLogToConsole: true
    }))
