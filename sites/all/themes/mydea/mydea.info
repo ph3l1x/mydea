@@ -43,6 +43,7 @@ stylesheets[all][] = css/blog.css
 stylesheets[all][] = css/commerce.css
 stylesheets[all][] = css/misc.css
 stylesheets[all][] = css/feature-colors.css
+stylesheets[all][] = css/jquery.webui-popover.min.css
 stylesheets[all][] = css/style.min.css
 stylesheets[all][] = css/max1200.min.css
 stylesheets[all][] = css/max990.min.css
@@ -53,7 +54,8 @@ stylesheets[all][] = css/max480.min.css
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Scripts
 ;;;;;;;;;;;;;;;;;;;;;
-scripts[] = js/bento_features.js
+scripts[] = js/jquery.webui-popover.min.js
+scripts[] = js/mydea.js
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Feature Defaults

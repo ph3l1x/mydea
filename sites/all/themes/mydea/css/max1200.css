@@ -1,9 +1,13 @@
 @media only screen and (max-width: 1200px) {
+  .webui-popover {
+    max-width: 1000px; }
   /*******************************/
   /********** SECTION 1 **********/
   /*******************************/
   #block-nodeblock-2 .block-inner .sections .boxes-3 ul li {
     padding: 0 10px; }
+  #block-nodeblock-2 .block-inner .sections h2 {
+    font-size: 28px; }
   /*******************************/
   /********** SECTION 2 **********/
   /*******************************/

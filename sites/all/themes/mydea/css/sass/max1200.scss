@@ -1,4 +1,9 @@
 @media only screen and (max-width: 1200px) {
+
+  .webui-popover {
+    max-width:1000px;
+  }
+
   /*******************************/
   /********** SECTION 1 **********/
   /*******************************/
@@ -20,6 +25,7 @@
         }
       }
       .sections h2 {
+        font-size:28px;
 
       }
     }

@@ -12,6 +12,178 @@
   font-style: normal;
 }
 
+.servicesPop {
+  display: none;
+}
+
+//.webui-popover-content {
+//  ul {
+//    li {
+//      float: left;
+//      width: 30%;
+//      height: 100px;
+//      position: relative;
+//    }
+//    .li-check-square-o:before {
+//      content: "\f000";
+//      font-family: FontAwesome;
+//      font-style: normal;
+//      font-weight: normal;
+//      text-decoration: inherit;
+//      font-size: 36px;
+//      position: absolute;
+//      //top:10px;
+//      left: -10px
+//
+//    }
+//    .li-cogs:before {
+//      content: "\f000";
+//      font-family: FontAwesome;
+//      font-style: normal;
+//      font-weight: normal;
+//      text-decoration: inherit;
+//      font-size: 36px;
+//      position: absolute;
+//      //top:10px;
+//      left: -10px;
+//    }
+//    .li-sitemap-o:before {
+//      content: "\f000";
+//      font-family: FontAwesome;
+//      font-style: normal;
+//      font-weight: normal;
+//      text-decoration: inherit;
+//      font-size: 36px;
+//      position: absolute;
+//      //top:10px;
+//      left: -10px;
+//    }
+//    .li-bar-chart:before {
+//      content: "\f000";
+//      font-family: FontAwesome;
+//      font-style: normal;
+//      font-weight: normal;
+//      text-decoration: inherit;
+//      font-size: 36px;
+//      position: absolute;
+//      //top:10px;
+//      left: -10px;
+//    }
+//    .li-user-plus:before {
+//      content: "\f000";
+//      font-family: FontAwesome;
+//      font-style: normal;
+//      font-weight: normal;
+//      text-decoration: inherit;
+//      font-size: 36px;
+//      position: absolute;
+//      //top:10px;
+//      left: -10px;
+//    }
+//    .li-users:before {
+//      content: "\f000";
+//      font-family: FontAwesome;
+//      font-style: normal;
+//      font-weight: normal;
+//      text-decoration: inherit;
+//      font-size: 36px;
+//      position: absolute;
+//      //top:10px;
+//      left: -10px;
+//    }
+//    .li-pie-chart:before {
+//      content: "\f000";
+//      font-family: FontAwesome;
+//      font-style: normal;
+//      font-weight: normal;
+//      text-decoration: inherit;
+//      font-size: 36px;
+//      position: absolute;
+//      //top:10px;
+//      left: -10px;
+//    }
+//    .li-exchange:before {
+//      content: "\f000";
+//      font-family: FontAwesome;
+//      font-style: normal;
+//      font-weight: normal;
+//      text-decoration: inherit;
+//      font-size: 36px;
+//      position: absolute;
+//      //top:10px;
+//      left: -10px;
+//    }
+//    .li-thumbs-o-up:before {
+//      content: "\f000";
+//      font-family: FontAwesome;
+//      font-style: normal;
+//      font-weight: normal;
+//      text-decoration: inherit;
+//      font-size: 36px;
+//      position: absolute;
+//      //top:10px;
+//      left: -10px;
+//    }
+//    .li-mobile:before {
+//      content: "\f000";
+//      font-family: FontAwesome;
+//      font-style: normal;
+//      font-weight: normal;
+//      text-decoration: inherit;
+//      font-size: 36px;
+//      position: absolute;
+//      //top:10px;
+//      left: -10px;
+//    }
+//    .li-search:before {
+//      content: "\f000";
+//      font-family: FontAwesome;
+//      font-style: normal;
+//      font-weight: normal;
+//      text-decoration: inherit;
+//      font-size: 36px;
+//      position: absolute;
+//      //top:10px;
+//      left: -10px;
+//    }
+//    .li-envelope-o:before {
+//      content: "\f000";
+//      font-family: FontAwesome;
+//      font-style: normal;
+//      font-weight: normal;
+//      text-decoration: inherit;
+//      font-size: 36px;
+//      position: absolute;
+//      //top:10px;
+//      left: -10px;
+//    }
+//  }
+//}
+
+.webui-popover-content {
+  ul {
+    list-style: none;
+    margin: 20px 0;
+    li {
+      float: left;
+      width: 30%;
+      padding: 0 10px;
+      height:114px;
+      font-size:13px;
+    }
+    i {
+      float: left;
+      font-size: 37px;
+      height:114px;
+    }
+  }
+}
+
+.webui-popover {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
 .block.block-nodeblock {
   margin-bottom: 0;
 }
