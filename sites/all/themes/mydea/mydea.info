@@ -53,7 +53,7 @@ stylesheets[all][] = css/max480.min.css
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Scripts
 ;;;;;;;;;;;;;;;;;;;;;
-scripts[] = js/bento_features.js
+scripts[] = js/mydea.js
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Feature Defaults
