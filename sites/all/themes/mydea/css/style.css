@@ -33,7 +33,7 @@
   display: block;
   opacity: 1; }
   .servicesPop .servicesPopInner {
-    width: 75%;
+    width: 41%;
     background: white;
     margin: 0 auto;
     position: relative;
@@ -44,6 +44,9 @@
     box-shadow: 0px 3px 3px black; }
     .servicesPop .servicesPopInner .servicesPopInnerContent {
       position: relative; }
+      .servicesPop .servicesPopInner .servicesPopInnerContent .popover-p {
+        max-width: 400px;
+        margin: 0 auto; }
       .servicesPop .servicesPopInner .servicesPopInnerContent h1 {
         font-family: lato-black;
         text-align: center; }
@@ -57,17 +60,7 @@
         width: 20px;
         cursor: pointer; }
       .servicesPop .servicesPopInner .servicesPopInnerContent ul {
-        list-style: none; }
-        .servicesPop .servicesPopInner .servicesPopInnerContent ul li {
-          display: inline-block;
-          width: 30%;
-          height: 100px;
-          padding: 10px;
-          vertical-align: top; }
-          .servicesPop .servicesPopInner .servicesPopInnerContent ul li i {
-            height: 100px;
-            float: left;
-            font-size: 32px; }
+        margin: 20px 0 20px 20px; }
 
 .serviceVisuallyHidden {
   opacity: 0; }
@@ -152,7 +145,7 @@
       font-family: Lato-Regular;
       font-size: 40px;
       color: white;
-      line-height: 60px;
+      line-height: 40px;
       text-transform: uppercase; }
     #block-nodeblock-3 .block-inner .services_section h2 {
       font-family: Lato-Black;
