@@ -1,4 +1,12 @@
 @media only screen and (max-width: 480px) {
+  .servicesPop .servicesPopInner .servicesPopInnerContent {
+    font-size: 12px; }
+    .servicesPop .servicesPopInner .servicesPopInnerContent .popover-p {
+      padding: 0 10px; }
+    .servicesPop .servicesPopInner .servicesPopInnerContent h1 {
+      font-size: 26px; }
+    .servicesPop .servicesPopInner .servicesPopInnerContent ul {
+      padding: 0 10px; }
   /*******************************/
   /********** SECTION 1 **********/
   /*******************************/
@@ -31,6 +39,8 @@
   /*******************************/
   /********** SECTION 3 **********/
   /*******************************/
+  #block-nodeblock-4 .block-inner .testimonials_section ul li {
+    width: 95%; }
   /*******************************/
   /********** SECTION 4 **********/
   /*******************************/

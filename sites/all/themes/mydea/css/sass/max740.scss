@@ -1,5 +1,26 @@
 @media only screen and (max-width: 740px) {
 
+  .servicesPop {
+    .servicesPopInner {
+      width:92%;
+      .servicesPopInnerContent {
+        .popover-p {
+        }
+        h1 {
+          font-size:28px;
+        }
+        hr {
+        }
+        img {
+        }
+        ul {
+          li {
+          }
+        }
+      }
+    }
+  }
+
   /*******************************/
   /********** SECTION 1 **********/
   /*******************************/
@@ -91,7 +112,25 @@
   /********** SECTION 3 **********/
   /*******************************/
 
-
+  #block-nodeblock-4 {
+    .block-inner {
+      .testimonials_section {
+        ul {
+          li {
+            width:90%;
+            div.test-whiteBar {
+            }
+            div.test-image {
+            }
+            .test-imageHover {
+            }
+            div.test-text {
+            }
+          }
+        }
+      }
+    }
+  }
 
   /*******************************/
   /********** SECTION 4 **********/

@@ -25,12 +25,15 @@
   }
 }
 
+.hideme {
+  display: none;
+}
+
 #node-1 .content {
   display: none;
 }
 
 .servicesPop {
-  //display:none;
   background: rgba(0, 0, 0, .70);
   height: 100%;
   width: 100%;
@@ -74,18 +77,8 @@
         cursor: pointer;
       }
       ul {
-        //   list-style:none;
-        margin:20px 0 20px 20px;
+        margin: 20px 0 20px 20px;
         li {
-          //      display:inline-block;
-          //       width:30%;
-          //      height:100px;
-          //      padding:10px;
-          //      vertical-align:top;
-          //      i {
-          //        height:100px;
-          //       float:left;
-          //          font-size:32px;
         }
       }
     }
@@ -114,6 +107,23 @@
   }
 }
 
+#block-block-2 {
+  background: #ff0000;
+  color: white;
+  padding: 40px;
+  margin-bottom: 0;
+  .red-section-left {
+    font-family: Lato-Black;
+    font-size: 30px;
+    float: left;
+    max-width: 350px;
+
+  }
+  .red-section-right {
+
+  }
+}
+
 /*******************************/
 /********** SECTION 1 **********/
 /*******************************/
@@ -123,6 +133,7 @@
   background-size: cover;
   // background-position: 0 -375px;
   background-position: center center;
+  background-attachment: fixed;
 
   .block-inner {
     //    background: rgba(112,66,20, 0.65);
@@ -145,6 +156,7 @@
           list-style: none;
           margin: 0 auto;
           width: 100%;
+          margin-bottom: 75px;
           li {
             display: inline-block;
             width: 25%;
@@ -198,7 +210,7 @@
   .block-inner {
     background: rgba(63, 76, 91, 0.65);
     height: 100%;
-    padding-top: 40px;
+    padding: 40px 0;
     text-align: center;
 
     .services_section {
@@ -286,3 +298,158 @@
   }
 }
 
+/*******************************/
+/********** SECTION 3 **********/
+/*******************************/
+
+#block-nodeblock-4 {
+  background: url('images/sectionTestimonialsResize.jpg');
+  background-size: cover;
+  background-position: center -200px;
+
+  .block-inner {
+    background: rgba(0, 0, 0, 0.55);
+    height: 100%;
+    padding: 50px 15px;
+    text-align: center;
+
+    .testimonials_section {
+      ul {
+        list-style: none;
+        float: left;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 100px 0 10px 0;
+        li {
+          position: relative;
+          float: left;
+          width: 33.33%;
+          color: white;
+          background: #000000;
+          cursor: default;
+          transition: all 300ms linear;
+          overflow: hidden;
+          div.test-whiteBar {
+            width: 100%;
+            height: 20px;
+            background: white;
+            position: absolute;
+            top: 0;
+          }
+          div.test-image {
+            display: inline-block;
+            position: relative;
+            transition: all 300ms linear;
+            img {
+              max-width: inherit;
+
+              transition: all 300ms linear;
+              width: 100%;
+            }
+          }
+          .test-imageHover {
+            content: ' ';
+            display: block;
+            background: #000000;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            transition: all 300ms linear;
+          }
+          div.test-text {
+            position: absolute;
+            z-index: 200;
+            opacity: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            padding: 20px;
+            text-align: left;
+            font-family: Arial;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*******************************/
+/********** SECTION 4 **********/
+/*******************************/
+
+#block-nodeblock-5 {
+  background: url('images/sectionAboutResize.jpg');
+  background-size: cover;
+  background-position: center -200px;
+
+  .block-inner {
+    background: rgba(0, 0, 0, 0.55);
+    height: 100%;
+    padding: 50px 15px;
+    text-align: center;
+
+    .about_section {
+      ul {
+        list-style: none;
+        float: left;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 100px 0 10px 0;
+        li {
+          position: relative;
+          float: left;
+          width: 33.33%;
+          color: white;
+          background: #000000;
+          cursor: default;
+          transition: all 300ms linear;
+          overflow: hidden;
+          div.test-whiteBar {
+            width: 100%;
+            height: 20px;
+            background: white;
+            position: absolute;
+            top: 0;
+          }
+          div.test-image {
+            display: inline-block;
+            position: relative;
+            transition: all 300ms linear;
+            img {
+              max-width: inherit;
+
+              transition: all 300ms linear;
+              width: 100%;
+            }
+          }
+          .test-imageHover {
+            content: ' ';
+            display: block;
+            background: #000000;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            transition: all 300ms linear;
+          }
+          div.test-text {
+            position: absolute;
+            z-index: 200;
+            opacity: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            padding: 20px;
+            text-align: left;
+            font-family: Arial;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

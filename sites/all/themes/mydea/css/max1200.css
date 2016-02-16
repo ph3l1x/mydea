@@ -1,4 +1,6 @@
 @media only screen and (max-width: 1200px) {
+  .servicesPop .servicesPopInner .servicesPopInnerContent h1 {
+    font-size: 32px; }
   /*******************************/
   /********** SECTION 1 **********/
   /*******************************/
@@ -14,6 +16,9 @@
   /*******************************/
   /********** SECTION 3 **********/
   /*******************************/
+  #block-nodeblock-4 .block-inner .testimonials_section ul li div.test-text {
+    font-size: 13px;
+    top: 20px; }
   /*******************************/
   /********** SECTION 4 **********/
   /*******************************/

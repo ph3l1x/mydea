@@ -1,4 +1,24 @@
 @media only screen and (max-width: 1200px) {
+  .servicesPop {
+    .servicesPopInner {
+      .servicesPopInnerContent {
+        .popover-p {
+        }
+        h1 {
+          font-size:32px;
+        }
+        hr {
+        }
+        img {
+        }
+        ul {
+          li {
+          }
+        }
+      }
+    }
+  }
+
   /*******************************/
   /********** SECTION 1 **********/
   /*******************************/
@@ -75,7 +95,26 @@
   /*******************************/
   /********** SECTION 3 **********/
   /*******************************/
-
+  #block-nodeblock-4 {
+    .block-inner {
+      .testimonials_section {
+        ul {
+          li {
+            div.test-whiteBar {
+            }
+            div.test-image {
+            }
+            .test-imageHover {
+            }
+            div.test-text {
+              font-size:13px;
+              top:20px;
+            }
+          }
+        }
+      }
+    }
+  }
   /*******************************/
   /********** SECTION 4 **********/
   /*******************************/
