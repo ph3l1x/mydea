@@ -1,28 +1,27 @@
 (function ($) {
     $(document).ready(function () {
 
-        $('.popAD').click(function (e) {
-            e.preventDefault();
-            var box = $('#popAD');
-
-            if (box.hasClass('servicePopHidden')) {
-                console.log("HAS IT");
-                box.removeClass('servicePopHidden');
-                setTimeout(function () {
-                    box.removeClass('serviceVisuallyHidden');
-                }, 20);
-            }
+        $('a#magicPopUp').each(function() {
+            $(this).on("click", function(e) {
+                e.preventDefault();
+                var box = $('#' + $(this).attr('class'));
+                if(box.hasClass('servicePopHidden')) {
+                    box.removeClass('servicePopHidden');
+                    setTimeout(function() {
+                        box.removeClass('serviceVisuallyHidden');
+                    }, 20);
+                }
+            });
         });
 
-        $('.popClose').click(function() {
-
-            var box = $('#popAD');
-
-            box.addClass('serviceVisuallyHidden');
-            box.one('transitionend', function (e) {
-                box.addClass('servicePopHidden');
+        $('.popClose').each(function(e) {
+            $(this).on("click", function() {
+                var box = $('#' + $(this).parents('.servicesPop').attr('id'));
+                box.addClass('serviceVisuallyHidden');
+                    box.one('transitionend', function (e) {
+                        box.addClass('servicePopHidden');
+                    });
             });
-
         });
 
         /* Make background image fixed when it reaches top of page */
@@ -37,13 +36,15 @@
             }
         });
 
-        $('.testimonials_section li').hover(function () {
-            $(this).find('.test-image').toggleClass('test-imageHover');
-            $(this).find('.test-whiteBar').toggleClass('hideme');
+        $('.about_section li').hover(function () {
+            $(this).find('.about-image').toggleClass('test-imageHover');
+           // $(this).find('.about-whiteBar').toggleClass('hideme');
         });
-        $('.testimonials_section li').mouseenter( function() {
-            $(this).find('.test-text').css('opacity','1');
-            $(this).find('div.test-image').css('opacity','.4');
+        $('.about_section li').mouseenter( function() {
+            $(this).find('.about-text').css('opacity','1');
+            $(this).find('div.about-image').css('opacity','.4');
+            $(this).find('.about-whiteBar').removeClass('hideme');
+            $(this).find('img').css('width','110%');
             //$(this).find('img').css({
             //    'width'     : '130%',
             //    'max-width' : 'inherit',
@@ -53,9 +54,11 @@
             //
             //});
         });
-        $('.testimonials_section li').mouseleave(function () {
-            $(this).find('.test-text').css('opacity','0');
-            $(this).find('div.test-image').css('opacity','1');
+        $('.about_section li').mouseleave(function () {
+            $(this).find('.about-text').css('opacity','0');
+            $(this).find('div.about-image').css('opacity','1');
+            $(this).find('.about-whiteBar').addClass('hideme');
+            $(this).find('img').css('width','100%');
             //$(this).find('img').css({
             //    'width'     : 'inherit',
             //    'max-width' : 'inherit',
