@@ -11,12 +11,15 @@
   font-weight: normal;
   font-style: normal;
 }
+
 #preface .block {
-  margin-bottom:0px;
+  margin-bottom: 0px;
 }
+
 #preface-wrapper.wrapper {
-  padding:0 !important;
+  padding: 0 !important;
 }
+
 .block.block-nodeblock {
   margin-bottom: 0;
 }
@@ -38,6 +41,22 @@
   display: none;
 }
 
+.redButton {
+  display: inline-block;
+  margin: 25px 0 40px 0;
+  a {
+    font-family: Lato-Regular;
+    font-size: 25px;
+    display: block;
+    color: white;
+    background: #FF0000;
+    padding: 10px 30px;
+  }
+  :hover {
+    background: rgba(255, 0, 0, .50);
+  }
+}
+
 .servicesPop {
   background: rgba(0, 0, 0, .70);
   height: 100%;
@@ -46,8 +65,8 @@
   z-index: 100;
   left: 0;
   right: 0;
-  top:0;
-  bottom:0;
+  top: 0;
+  bottom: 0;
   transition: all 200ms linear;
   display: block;
   opacity: 1;
@@ -64,7 +83,7 @@
 
     .servicesPopInnerContent {
       position: relative;
-      padding-bottom:20px;
+      padding-bottom: 20px;
       .popover-p {
         max-width: 400px;
         margin: 0 auto;
@@ -287,21 +306,6 @@
           color: white;
         }
       }
-      .services-readMore {
-        display: inline-block;
-        margin: 25px 0 40px 0;
-        a {
-          font-family: Lato-Regular;
-          font-size: 25px;
-          display: block;
-          color: white;
-          background: #FF0000;
-          padding: 10px 30px;
-        }
-        :hover {
-          background: rgba(255, 0, 0, .50);
-        }
-      }
     }
   }
 }
@@ -322,61 +326,36 @@
     text-align: center;
 
     .testimonials_section {
+      padding-bottom: 30px;
       ul {
         list-style: none;
-        float: left;
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
-        margin: 100px 0 10px 0;
+        margin: 96px 0;
+        width: 100%;
         li {
-          position: relative;
-          float: left;
-          width: 33.33%;
+          display: inline-block;
+          width: 45%;
+          background: rgba(255, 0, 0, 0.45);
+          margin: 20px;
           color: white;
-          background: #000000;
-          cursor: default;
-          transition: all 300ms linear;
-          overflow: hidden;
-          div.test-whiteBar {
-            width: 100%;
-            height: 20px;
-            background: white;
-            position: absolute;
-            top: 0;
-          }
-          div.test-image {
-            display: inline-block;
-            position: relative;
-            transition: all 300ms linear;
-            img {
-              max-width: inherit;
-
-              transition: all 300ms linear;
-              width: 100%;
-            }
-          }
-          .test-imageHover {
-            content: ' ';
-            display: block;
-            background: #000000;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            right: 0;
-            left: 0;
-            transition: all 300ms linear;
-          }
-          div.test-text {
-            position: absolute;
-            z-index: 200;
-            opacity: 0;
-            top: 50%;
-            transform: translateY(-50%);
-            padding: 20px;
+          font-size: 14px;
+          font-weight: bold;
+          height: 175px;
+          div.test-content {
+            padding: 15px 10px;
             text-align: left;
-            font-family: Arial;
-            font-size: 14px;
+            i.fa-quote-left {
+              margin-right: 10px;
+            }
+            i.fa-quote-right {
+              margin-left: 10px;
+            }
+            i {
+              font-size: 17px;
+            }
+            div.test-title {
+              margin-top: 8px;
+              font-style: italic;
+            }
           }
         }
       }
@@ -391,7 +370,7 @@
 #block-nodeblock-5 {
   background: url('images/sectionAboutResize.jpg');
   background-size: cover;
-  background-position: center -200px;
+  background-repeat: no-repeat;
 
   .block-inner {
     background: rgba(0, 0, 0, 0.55);
@@ -400,13 +379,29 @@
     text-align: center;
 
     .about_section {
+      .about-content {
+        color: white;
+        font-family: lato-regular;
+        text-align: justify;
+        margin: 0 auto;
+        width: 70%;
+        font-size: 18px;
+        .about-download {
+          position: relative;
+          left: 50%;
+          transform: translateX(-50%);
+          a {
+
+          }
+        }
+      }
       ul {
         list-style: none;
         float: left;
         position: relative;
         left: 50%;
         transform: translateX(-50%);
-        margin: 100px 0 10px 0;
+        margin: 70px 0 10px 0;
         li {
           position: relative;
           float: left;
@@ -416,16 +411,16 @@
           cursor: default;
           transition: all 300ms linear;
           overflow: hidden;
-          max-height:366px;
+          max-height: 366px;
           div.about-whiteBar {
             width: 100%;
             height: 34px;
             background: white;
             position: absolute;
             top: 0;
-            color:black;
-            font-family:Lato-Black;
-            font-size:23px;
+            color: black;
+            font-family: Lato-Black;
+            font-size: 23px;
           }
           div.about-image {
             display: inline-block;
@@ -435,9 +430,9 @@
               max-width: inherit;
               transition: all 300ms linear;
               width: 100%;
-              position:relative;
-              left:50%;
-              transform:translateX(-50%);
+              position: relative;
+              left: 50%;
+              transform: translateX(-50%);
             }
           }
           .about-imageHover {
@@ -461,6 +456,20 @@
             text-align: left;
             font-family: Arial;
             font-size: 14px;
+            .about-more {
+              a {
+                color: white;
+                font-family: lato-black;
+                font-size: 17px;
+                background: #ff0000;
+                padding: 5px 10px;
+                float: right;
+                margin: 20px 0 0;
+              }
+              :hover {
+                background: rgba(255, 0, 0, .50);
+              }
+            }
           }
         }
       }
