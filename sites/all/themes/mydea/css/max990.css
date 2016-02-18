@@ -22,20 +22,6 @@
   /*******************************/
   /********** SECTION 3 **********/
   /*******************************/
-  #block-nodeblock-4 .block-inner .testimonials_section ul {
-    margin: 80px 0 10px; }
-    #block-nodeblock-4 .block-inner .testimonials_section ul li {
-      width: 55%;
-      left: 50%;
-      transform: translateX(-50%);
-      margin-bottom: 30px; }
-      #block-nodeblock-4 .block-inner .testimonials_section ul li div.test-image {
-        display: block; }
-        #block-nodeblock-4 .block-inner .testimonials_section ul li div.test-image img {
-          width: 110%; }
-      #block-nodeblock-4 .block-inner .testimonials_section ul li div.test-text {
-        font-size: 13px;
-        top: 20px; }
   /*******************************/
   /********** SECTION 4 **********/
   /*******************************/

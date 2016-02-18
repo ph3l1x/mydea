@@ -100,15 +100,15 @@
       .testimonials_section {
         ul {
           li {
-            div.test-whiteBar {
-            }
-            div.test-image {
-            }
-            .test-imageHover {
-            }
-            div.test-text {
-              font-size:13px;
-              top:20px;
+            div.test-content {
+              i.fa-quote-left {
+              }
+              i.fa-quote-right {
+              }
+              i {
+              }
+              div.test-title {
+              }
             }
           }
         }
@@ -118,8 +118,98 @@
   /*******************************/
   /********** SECTION 4 **********/
   /*******************************/
+  #block-nodeblock-5 {
+    .block-inner {
+      .about_section {
+        .about-content {
+          .about-download {
+            a {
 
+            }
+          }
+        }
+        ul {
+          li {
+            div.about-whiteBar {
+            }
+            div.about-image {
+              img {
+              }
+            }
+            .about-imageHover {
+            }
+            div.about-text {
+              .about-more {
+                a {
+                }
+                :hover {
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
   /*******************************/
   /********** SECTION 5 **********/
   /*******************************/
+  #block-nodeblock-6 {
+    .block-inner {
+      .contact_section {
+        .contact-header {
+          h2 {
+          }
+          .contact-headerContent {
+          }
+        }
+        .footer {
+        }
+        .contact-logo {
+          img {
+          }
+          .footer-socialMedia {
+            .socialMedia {
+              a {
+              }
+              :hover {
+              }
+              span {
+              }
+            }
+          }
+        }
+        .footer-contactContainer {
+          .contact-about {
+            .contac-aboutTitle {
+            }
+            .contact-aboutPhone {
+            }
+          }
+          .contact-form {
+            form {
+              input {
+              }
+              :focus {
+              }
+              label {
+              }
+              textarea {
+              }
+              :focus {
+              }
+              .grippie {
+              }
+              .form-textarea-wrapper {
+              }
+              button {
+              }
+              button:hover {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

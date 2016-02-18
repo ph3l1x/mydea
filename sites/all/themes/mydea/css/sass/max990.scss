@@ -107,25 +107,52 @@
     .block-inner {
       .testimonials_section {
         ul {
-          margin:80px 0 10px;
           li {
-            width:55%;
-            left:50%;
-            transform:translateX(-50%);
-            margin-bottom:30px;
-            div.test-whiteBar {
-            }
-            div.test-image {
-              display:block;
-              img {
-                width:110%;
+            div.test-content {
+              i.fa-quote-left {
+              }
+              i.fa-quote-right {
+              }
+              i {
+              }
+              div.test-title {
               }
             }
-            .test-imageHover {
+          }
+        }
+      }
+    }
+  }
+  /*******************************/
+  /********** SECTION 4 **********/
+  /*******************************/
+  #block-nodeblock-5 {
+    .block-inner {
+      .about_section {
+        .about-content {
+          .about-download {
+            a {
+
             }
-            div.test-text {
-              font-size:13px;
-              top:20px;
+          }
+        }
+        ul {
+          li {
+            div.about-whiteBar {
+            }
+            div.about-image {
+              img {
+              }
+            }
+            .about-imageHover {
+            }
+            div.about-text {
+              .about-more {
+                a {
+                }
+                :hover {
+                }
+              }
             }
           }
         }
@@ -134,12 +161,64 @@
   }
 
   /*******************************/
-  /********** SECTION 4 **********/
-  /*******************************/
-
-
-  /*******************************/
   /********** SECTION 5 **********/
   /*******************************/
-
+  #block-nodeblock-6 {
+    .block-inner {
+      .contact_section {
+        .contact-header {
+          h2 {
+          }
+          .contact-headerContent {
+          }
+        }
+        .footer {
+        }
+        .contact-logo {
+          img {
+          }
+          .footer-socialMedia {
+            .socialMedia {
+              a {
+              }
+              :hover {
+              }
+              span {
+              }
+            }
+          }
+        }
+        .footer-contactContainer {
+          .contact-about {
+            .contac-aboutTitle {
+            }
+            .contact-aboutPhone {
+            }
+          }
+          .contact-form {
+            form {
+              input {
+              }
+              :focus {
+              }
+              label {
+              }
+              textarea {
+              }
+              :focus {
+              }
+              .grippie {
+              }
+              .form-textarea-wrapper {
+              }
+              button {
+              }
+              button:hover {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

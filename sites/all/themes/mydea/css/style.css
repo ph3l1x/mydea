@@ -248,7 +248,7 @@
         margin: 96px 0;
         width: 100%; }
         #block-nodeblock-4 .block-inner .testimonials_section ul li {
-          display: inline-block;
+          float: left;
           width: 45%;
           background: rgba(255, 0, 0, 0.45);
           margin: 20px;
@@ -275,7 +275,8 @@
 #block-nodeblock-5 {
   background: url('images/sectionAboutResize.jpg');
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
   #block-nodeblock-5 .block-inner {
     background: rgba(0, 0, 0, 0.55);
     height: 100%;
@@ -359,3 +360,95 @@
             margin: 20px 0 0; }
           #block-nodeblock-5 .block-inner .about_section ul li div.about-text .about-more :hover {
             background: rgba(255, 0, 0, 0.5); }
+
+/*******************************/
+/********** SECTION 5 **********/
+/*******************************/
+#block-nodeblock-6 {
+  background: url('images/sectionContactResize.jpg');
+  background-size: cover;
+  background-repeat: no-repeat; }
+  #block-nodeblock-6 .block-inner {
+    background: rgba(0, 0, 0, 0.55);
+    height: 100%;
+    padding: 50px 15px;
+    text-align: center; }
+    #block-nodeblock-6 .block-inner .contact_section .contact-header h2 {
+      color: #ff0000;
+      font-family: Lato-black;
+      font-size: 40px;
+      line-height: 40px; }
+    #block-nodeblock-6 .block-inner .contact_section .contact-header .contact-headerContent {
+      font-family: Lato-regular;
+      font-size: 18px;
+      color: white;
+      text-align: justify;
+      width: 500px;
+      margin: 0 auto;
+      padding: 0 0 50px 0; }
+    #block-nodeblock-6 .block-inner .contact_section .footer {
+      float: left;
+      width: 30%;
+      padding: 0 15px; }
+    #block-nodeblock-6 .block-inner .contact_section .contact-logo img {
+      width: 300px; }
+    #block-nodeblock-6 .block-inner .contact_section .contact-logo .footer-socialMedia .socialMedia {
+      float: left;
+      padding: 29px 0 0;
+      width: 24%; }
+      #block-nodeblock-6 .block-inner .contact_section .contact-logo .footer-socialMedia .socialMedia a {
+        font-size: 45px;
+        color: white;
+        transition: all 200ms linear; }
+      #block-nodeblock-6 .block-inner .contact_section .contact-logo .footer-socialMedia .socialMedia :hover {
+        color: #ff0000;
+        transition: all 200ms linear; }
+      #block-nodeblock-6 .block-inner .contact_section .contact-logo .footer-socialMedia .socialMedia span {
+        display: none; }
+    #block-nodeblock-6 .block-inner .contact_section .footer-contactContainer {
+      width: 90%;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      float: left; }
+      #block-nodeblock-6 .block-inner .contact_section .footer-contactContainer .contact-about {
+        font-family: lato-regular;
+        color: white;
+        text-align: left;
+        font-size: 18px;
+        padding-left: 27px; }
+        #block-nodeblock-6 .block-inner .contact_section .footer-contactContainer .contact-about .contac-aboutTitle {
+          font-size: 20px;
+          margin-bottom: 10px; }
+        #block-nodeblock-6 .block-inner .contact_section .footer-contactContainer .contact-about .contact-aboutPhone {
+          font-size: 23px;
+          font-family: Lato-black;
+          color: #ff0000;
+          letter-spacing: 4px;
+          padding-bottom: 15px; }
+      #block-nodeblock-6 .block-inner .contact_section .footer-contactContainer .contact-form form {
+        width: 400px; }
+        #block-nodeblock-6 .block-inner .contact_section .footer-contactContainer .contact-form form input {
+          width: 70%;
+          background: rgba(255, 255, 255, 0.65); }
+        #block-nodeblock-6 .block-inner .contact_section .footer-contactContainer .contact-form form :focus {
+          border-color: #ff0000; }
+        #block-nodeblock-6 .block-inner .contact_section .footer-contactContainer .contact-form form label {
+          float: left;
+          width: 75px;
+          color: white;
+          font-family: Lato-black; }
+        #block-nodeblock-6 .block-inner .contact_section .footer-contactContainer .contact-form form textarea {
+          width: 70%;
+          background: rgba(255, 255, 255, 0.65); }
+        #block-nodeblock-6 .block-inner .contact_section .footer-contactContainer .contact-form form :focus {
+          border-color: #ff0000; }
+        #block-nodeblock-6 .block-inner .contact_section .footer-contactContainer .contact-form form .grippie {
+          display: none; }
+        #block-nodeblock-6 .block-inner .contact_section .footer-contactContainer .contact-form form .form-textarea-wrapper {
+          display: inline; }
+        #block-nodeblock-6 .block-inner .contact_section .footer-contactContainer .contact-form form button {
+          float: right;
+          margin-right: 31px; }
+        #block-nodeblock-6 .block-inner .contact_section .footer-contactContainer .contact-form form button:hover {
+          background: rgba(255, 0, 0, 0.5); }
