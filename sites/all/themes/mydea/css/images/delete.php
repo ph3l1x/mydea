@@ -168,7 +168,7 @@
 === Services Section Page ===============
 ==========================================
 <div class="sections services_section">
-  <h1>Offering Helpful Business<br/>
+  <h1>Offering Helpful Business<br />
     Tips &amp; Advice to help</h1>
 
   <h2>your business <span>start up</span></h2>
@@ -178,91 +178,59 @@
       <li>
         <div class="box-title">Account Development</div>
 
-        <div class="services-box-text">Projects for the development of corporate
-          strategy include: The formation of visions of the company, statement
-          of corporate objectives, weighing of the
-          potential, the formation of conditions.
-        </div>
+        <div class="services-box-text">Projects for the development of corporate strategy include: The formation of visions of the company, statement of corporate objectives, weighing of the potential, the formation of conditions.</div>
 
-        <hr/>
-        <div class="services-box-readMore"><a id="magicPopUp" class="popAD"
-                                              href="#">read more</a></div>
+        <hr />
+        <div class="services-box-readMore"><a class="popAD" href="#" id="magicPopUp">read more</a></div>
       </li>
       <li>
         <div class="box-title">Webinar/Seminar Recruitment</div>
 
-        <div class="services-box-text">Projects for the development of corporate
-          strategy include: The formation of visions of the company, statement
-          of corporate objectives, weighing of the
-          potential, the formation of conditions.
-        </div>
+        <div class="services-box-text">Projects for the development of corporate strategy include: The formation of visions of the company, statement of corporate objectives, weighing of the potential, the formation of conditions.</div>
 
-        <hr/>
-        <div class="services-box-readMore"><a id="magicPopUp" class="popWSR"
-                                              href="#">read more</a></div>
+        <hr />
+        <div class="services-box-readMore"><a class="popWSR" href="#" id="magicPopUp">read more</a></div>
       </li>
       <li>
         <div class="box-title">Events/Tradeshow</div>
 
-        <div class="services-box-text">Projects for the development of corporate
-          strategy include: The formation of visions of the company, statement
-          of corporate objectives, weighing of the
-          potential, the formation of conditions.
-        </div>
+        <div class="services-box-text">Projects for the development of corporate strategy include: The formation of visions of the company, statement of corporate objectives, weighing of the potential, the formation of conditions.</div>
 
-        <hr/>
-        <div class="services-box-readMore"><a id="magicPopUp" class="popET"
-                                              href="#">read more</a></div>
+        <hr />
+        <div class="services-box-readMore"><a class="popET" href="#" id="magicPopUp">read more</a></div>
       </li>
       <li>
         <div class="box-title">Sales Inbound/Outsourcing</div>
 
-        <div class="services-box-text">Projects for the development of corporate
-          strategy include: The formation of visions of the company, statement
-          of corporate objectives, weighing of the
-          potential, the formation of conditions.
-        </div>
+        <div class="services-box-text">Projects for the development of corporate strategy include: The formation of visions of the company, statement of corporate objectives, weighing of the potential, the formation of conditions.</div>
 
-        <hr/>
-        <div class="services-box-readMore"><a id="magicPopUp" class="popSIO"
-                                              href="#">read more</a></div>
+        <hr />
+        <div class="services-box-readMore"><a class="popSIO" href="#" id="magicPopUp">read more</a></div>
       </li>
       <li>
         <div class="box-title">Channel Development</div>
 
-        <div class="services-box-text">Projects for the development of corporate
-          strategy include: The formation of visions of the company, statement
-          of corporate objectives, weighing of the
-          potential, the formation of conditions.
-        </div>
+        <div class="services-box-text">Projects for the development of corporate strategy include: The formation of visions of the company, statement of corporate objectives, weighing of the potential, the formation of conditions.</div>
 
-        <hr/>
-        <div class="services-box-readMore"><a id="magicPopUp" class="popCD"
-                                              href="#">read more</a></div>
+        <hr />
+        <div class="services-box-readMore"><a class="popCD" href="#" id="magicPopUp">read more</a></div>
       </li>
       <li>
         <div class="box-title">Data Service</div>
 
-        <div class="services-box-text">Projects for the development of corporate
-          strategy include: The formation of visions of the company, statement
-          of corporate objectives, weighing of the
-          potential, the formation of conditions.
-        </div>
+        <div class="services-box-text">Projects for the development of corporate strategy include: The formation of visions of the company, statement of corporate objectives, weighing of the potential, the formation of conditions.</div>
 
-        <hr/>
-        <div class="services-box-readMore"><a id="magicPopUp" class="popDS"
-                                              href="#">read more</a></div>
+        <hr />
+        <div class="services-box-readMore"><a class="popDS" href="#" id="magicPopUp">read more</a></div>
       </li>
     </ul>
   </div>
 
-  <div class="services-info"><a href="#">Account Development</a> - <a href="#">Webiniar/Seminiar
-      Recruitment</a> - <a href="#">Events/Tradeshow</a> - <a href="#">Sales
-      Inbound/Outsourcing</a> - <a
-      href="#">Channel Development</a> - <a href="#">Data Service</a></div>
+<!--  <div class="services-info"><a class="popAD" href="#" id="magicPopUp">Account Development</a> - <a class="popWSR" href="#" id="magicPopUp">Webiniar/Seminiar Recruitment</a> - <a class="popET" href="#" id="magicPopUp">Events/Tradeshow</a> - <a class="popSIO" href="#" id="magicPopUp">Sales Inbound/Outsourcing</a> - <a class="popCD" href="#" id="magicPopUp">Channel Development</a> - <a class="popDS" href="#" id="magicPopUp">Data Service</a></div>-->
 
-  <div class="services-readMore"><a href="#">read more</a></div>
+<!--  <div class="services-readMore redButton"><a href="#">read more</a></div>-->
 </div>
+
 
 
 =======================================================
@@ -308,50 +276,131 @@ BLOCKS for About Section
 BLOCKS for Services Section
 ====================================================================================
 
-
+-----
+Account Development
+-----
 <div class="servicesPop servicePopHidden serviceVisuallyHidden" id="popAD">
   <div class="servicesPopInner">
-    <div class="servicesPopInnerContent">
-      <img class="popClose"
-           src="sites/all/themes/mydea/css/images/close-icon.png">
+    <div class="servicesPopInnerContent"><img class="popClose" src="sites/all/themes/mydea/css/images/close-icon.png" />
       <h1>Account Development</h1>
-      <hr/>
-      <div class="popover-p">
-        The core of our business is account development for a solution sale. We
-        create the desire, understand prospects’ processes and operations at a
-        detailed level, and develop the
-        urgency.
-        As a result, we provide a qualified prospect to sales/partners so they
-        can stay focused on what they do best- close business.
-      </div>
+
+      <hr />
+      <div class="popover-p">The core of our business is account development for a solution sale. We create the desire, understand prospects’ processes and operations at a detailed level, and develop the urgency. As a result, we provide a qualified prospect to sales/partners so they can stay focused on what they do best- close business.</div>
+
       <ul>
-        <li>Validate/update/scrub current company list ensuring companies/titles
-          match prospect profile
-        </li>
+        <li>Validate/update/scrub current company list ensuring companies/titles match prospect profile</li>
         <li>Develop new data driven prospecting lists</li>
-        <li>Manage strategic accounts – nurture your top identified prospects
-        </li>
-        <li>Develop qualification metrics and understand
-          product/solution/market
-        </li>
-        <li>Find the correct decision maker and make contact by phone, email or
-          other marketing tactics
-        </li>
-        <li>Establish relationships to understand the prospect’s needs and pain
-          points. Identify specific processes and where your services can
-          provide business value
-        </li>
+        <li>Manage strategic accounts – nurture your top identified prospects</li>
+        <li>Develop qualification metrics and understand product/solution/market</li>
+        <li>Find the correct decision maker and make contact by phone, email or other marketing tactics</li>
+        <li>Establish relationships to understand the prospect’s needs and pain points. Identify specific processes and where your services can provide business value</li>
         <li>Create success measurement tracking/reporting on all activity</li>
-        <li>Seamlessly transfer the relationship with the prospect to your sales
-          team - we appear as an extension of your sales department
-        </li>
-        <li>Nurture accounts/contacts that due to a variety of reasons aren’t
-          ready to engage
-        </li>
+        <li>Seamlessly transfer the relationship with the prospect to your sales team - we appear as an extension of your sales department</li>
+        <li>Nurture accounts/contacts that due to a variety of reasons aren’t ready to engage</li>
         <li>Follow up to ensure no opportunities are dropped</li>
         <li>Transparently report in CRM</li>
         <li>Create content for mass email/drip campaigns</li>
+      </ul>
+    </div>
+  </div>
+</div>
 
+
+-----
+Webinar/Seminar Recrtuitment
+-----
+<div class="servicesPop servicePopHidden serviceVisuallyHidden" id="popWSR">
+  <div class="servicesPopInner">
+    <div class="servicesPopInnerContent"><img class="popClose" src="sites/all/themes/mydea/css/images/close-icon.png" />
+      <h1>Webinar / Seminar Recruitment</h1>
+
+      <hr />
+      <div class="popover-p">Coming soon..</div>
+
+      <ul>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+-----
+Events/Tradeshow
+-----
+<div class="servicesPop servicePopHidden serviceVisuallyHidden" id="popET">
+  <div class="servicesPopInner">
+    <div class="servicesPopInnerContent"><img class="popClose" src="sites/all/themes/mydea/css/images/close-icon.png" />
+      <h1>Events / Tradeshow</h1>
+
+      <hr />
+      <div class="popover-p">Targeted strategies to drive attendance for trade shows, webinars, user conferences, product launches, technology showcases, customer appreciation events, and lunch and learns.</div>
+      <ul>
+        <li>Define, target and recruitment of the prospects you want at your event</li>
+        <li>Attendance confirmation with reminder calls/emails</li>
+        <li>Post-show follow up/survey to continue/further engagement</li>
+        <li>Database entry of all attendees information/metrics to help support additional marketing efforts</li>
+        <li>Booth staffing on behalf of client– experienced question mining personnel</li>
+        <li>Manage logistics of equipment to and from events</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+-----
+Sales Inbound/Outsourcing
+-----
+<div class="servicesPop servicePopHidden serviceVisuallyHidden" id="popSIO">
+  <div class="servicesPopInner">
+    <div class="servicesPopInnerContent"><img class="popClose" src="sites/all/themes/mydea/css/images/close-icon.png" />
+      <h1>Sales Inbound / Outsourcing</h1>
+
+      <hr />
+      <div class="popover-p">Solution for assessing all channels of inbound communications from your sales/marketing networks to prioritize customer/prospect engagements. This keeps your team focused on the highest priorities.</div>
+      <ul>
+        <li>Customer service calls/inquiries</li>
+        <li>Opportunity screening</li>
+        <li>Click to chat support</li>
+        <li>Inbound email inquiry support</li>
+        <li>Order taking/order processing services</li>
+        <li>Customer base upselling</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+-----
+Channel Development
+-----
+<div class="servicesPop servicePopHidden serviceVisuallyHidden" id="popCD">
+  <div class="servicesPopInner">
+    <div class="servicesPopInnerContent"><img class="popClose" src="sites/all/themes/mydea/css/images/close-icon.png" />
+      <h1>Channel Development</h1>
+
+      <hr />
+      <div class="popover-p">Identify, qualify and engage targeted companies to partner with your business.</div>
+      <ul>
+        <li>Recruitment and engagement of: Value Added Resellers, Systems Integrators, Reseller, Total Solution Providers, Vendors, Distributor, Recommenders, OEM’s, etc.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+-----
+Data Service
+-----
+<div class="servicesPop servicePopHidden serviceVisuallyHidden" id="popDS">
+  <div class="servicesPopInner">
+    <div class="servicesPopInnerContent"><img class="popClose" src="sites/all/themes/mydea/css/images/close-icon.png" />
+      <h1>Data Service</h1>
+
+      <hr />
+      <div class="popover-p">Customer and prospective customer data is some of the most valuable assets of any business. MyDea provides outsourced support/manpower and experience to obtain/keep your data relevant.</div>
+      <ul>
+        <li>CRM and database building/cleansing – Experienced in all of the industries top CRM modules</li>
+        <li>List building and verification – Online databases and list vendors are rarely reliable. We  use our experience and expertise to make the touch points and personally validate all information</li>
+        <li>There is no one-stop shop for relevant information.  It takes experience to mine multiple avenues/tools for accurate information</li>
+        <li>Physical mailer campaigns – contact/address validation and verification to ensure delivery</li>
+        <li>Contact and title development</li>
       </ul>
     </div>
   </div>

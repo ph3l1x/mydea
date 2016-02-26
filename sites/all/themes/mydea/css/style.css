@@ -117,8 +117,7 @@
 #block-nodeblock-2 {
   background: url('images/sectionHomeResized.jpg');
   background-size: cover;
-  background-position: center center;
-  background-attachment: fixed; }
+  background-position: center center; }
   #block-nodeblock-2 .block-inner {
     background: rgba(0, 0, 0, 0.55);
     height: 100%;
@@ -275,8 +274,7 @@
 #block-nodeblock-5 {
   background: url('images/sectionAboutResize.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-repeat: no-repeat; }
   #block-nodeblock-5 .block-inner {
     background: rgba(0, 0, 0, 0.55);
     height: 100%;

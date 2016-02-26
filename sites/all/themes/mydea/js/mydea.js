@@ -26,15 +26,15 @@
 
         /* Make background image fixed when it reaches top of page */
 
-        var distance = $('#block-nodeblock-3').offset().top,
-            $window = $(window);
-        $window.scroll(function() {
-            if($window.scrollTop() >= distance) {
-                $('#block-nodeblock-3').css('background-attachment', 'fixed');
-            } else {
-                $('#block-nodeblock-3').css('background-attachment', 'inherit');
-            }
-        });
+        //var distance = $('#block-nodeblock-3').offset().top,
+        //    $window = $(window);
+        //$window.scroll(function() {
+        //    if($window.scrollTop() >= distance) {
+        //        $('#block-nodeblock-3').css('background-attachment', 'fixed');
+        //    } else {
+        //        $('#block-nodeblock-3').css('background-attachment', 'inherit');
+        //    }
+        //});
 
         $('.about_section li').hover(function () {
             $(this).find('.about-image').toggleClass('test-imageHover');
