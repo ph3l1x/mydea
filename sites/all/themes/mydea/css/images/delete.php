@@ -184,8 +184,9 @@
 === Services Section Page ===============
 ==========================================
 <div class="sections services_section">
-  <h1>Offering Helpful Business<br />
-    Tips &amp; Advice to help</h1>
+<!--  <h1>Offering Helpful Business<br />-->
+<!--    Tips &amp; Advice to help</h1>-->
+  <h1>Services</h1>
 
   <h2>your business <span>start up</span></h2>
 
@@ -286,6 +287,32 @@ BLOCKS for About Section
       </div>
     </div>
   </div>
+</div>
+
+====================================================================================
+HOME SECTION
+====================================================================================
+
+<div class="sections home_section">
+  <div class="logo"><img src="/sites/default/files/mydea_logo_white.png" /></div>
+
+  <h2>MyDea Marketing is an outsourced extension of your marketing and sales team. We are a passionate group of Account Development/Demand Generation professionals sole focus of helping your business drive market growth and pipeline.</h2>
+
+  <div class="textDiv">Let us create the desire, develop the urgency and provide you with qualified prospects so you can focus on what you do best – <span class="h2span">close business.</span></div>
+
+<!--  <div class="boxes-3">-->
+<!--    <ul>-->
+<!--      <li><img alt="" src="/sites/default/files/mt-0189-icon1.png" style="width: 70px; height: 71px; float: left;" />-->
+<!--        <div>Marketing Research</div>-->
+<!--      </li>-->
+<!--      <li><img alt="" src="/sites/default/files/mt-0189-icon2.png" style="width: 70px; height: 71px; float: left;" />-->
+<!--        <div>Education and Training</div>-->
+<!--      </li>-->
+<!--      <li><img alt="" src="/sites/default/files/mt-0189-icon3.png" style="width: 70px; height: 71px; float: left;" />-->
+<!--        <div>Outsourcing Programs</div>-->
+<!--      </li>-->
+<!--    </ul>-->
+<!--  </div>-->
 </div>
 
 =====================================================================================
@@ -418,6 +445,25 @@ Data Service
         <li>Physical mailer campaigns – contact/address validation and verification to ensure delivery</li>
         <li>Contact and title development</li>
       </ul>
+    </div>
+  </div>
+</div>
+
+=========================
+Contact Drawer
+========================
+
+<div class="contactDrawerContainer">
+  <div class="contactDrawerContainerInner">
+    <div class="contactDrawerContent">
+      <?php
+      $node = node_load(7);
+      webform_node_view($node, 'full');
+      print theme_webform_view($node->content);
+      ?>
+    </div>
+    <div class="contactDrawerTab">
+      <i class="fa fa-bars"></i><div class="contentDrawerRotate">Contact Us</div>
     </div>
   </div>
 </div>

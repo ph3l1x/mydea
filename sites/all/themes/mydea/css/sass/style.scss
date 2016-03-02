@@ -12,6 +12,7 @@
   font-style: normal;
 }
 
+
 #preface .block {
   margin-bottom: 0px;
 }
@@ -56,7 +57,62 @@
     background: rgba(255, 0, 0, .50);
   }
 }
+#block-block-10 {
+  width:575px;
+  position:fixed;
+  z-index:200;
+  left:0;
+  transition: all 0.5s linear;
 
+  .contactDrawerContainer {
+    float:left;
+    margin:0 auto;
+    width:415px;
+    position:relative;
+    padding:20px;
+    background:white;
+    border-radius: 0 0 5px 0;
+    top:20px;
+    .contactDrawerContainerInner {
+      position:relative;
+      .contactDrawerContent {
+        width: 375px;
+        float:left;
+      }
+      .contactDrawerTab {
+        width:200px;
+        position:absolute;
+        padding:0 0 0 21px;
+        right:-139px;
+        top:60px;
+        float:left;
+        color:#FF0000;
+        font-size:28px;
+        font-family: Lato-Black;
+        transform:rotate(90deg);
+        background:white;
+        border-radius:5px 5px 0 0;
+        box-shadow:2px -1px 0 black;
+        border-left:1px solid white;
+        cursor: pointer;
+        .contentDrawerRotate {
+
+        }
+        i {
+          position:relative;
+          -webkit-transform:rotate(90deg);
+          right:11px;
+        }
+      }
+    }
+  }
+}
+.containerShadow {
+  box-shadow:3px 2px 4px black;
+}
+.contactDrawerIn {
+  left:-415px !important;
+}
 .servicesPop {
   background: rgba(0, 0, 0, .70);
   height: 100%;
@@ -172,10 +228,11 @@
     .sections {
       div.textDiv {
         color: white;
-        font-family: Arial;
-        font-size: 13px;
+        font-family: lato-regular;
+        color:#ff0000;
+        font-size: 30px;
         width: 55%;
-        margin: 0 auto;
+        margin: 100px auto;
       }
       .boxes-3 {
         padding-bottom: 30px;
@@ -216,11 +273,10 @@
       color: white;
       font-size: 30px;
       line-height: 50px;
-      span.h2span {
-        color: #FF0000;
-        font-family: Lato-Black;
-
-      }
+    }
+    span.h2span {
+      color: #FF0000;
+      font-family: Lato-Black;
     }
   }
 }
@@ -242,11 +298,12 @@
 
     .services_section {
       h1 {
-        font-family: Lato-Regular;
-        font-size: 40px;
+        font-family: Lato-black;
+        font-size: 46px;
         color: white;
         line-height: 40px;
         text-transform: uppercase;
+        margin:0 0 50px;
       }
       h2 {
         font-family: Lato-Black;

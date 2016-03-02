@@ -67,7 +67,12 @@
             //    'position'  : 'inherit'
             //
             //});
-        })
+        });
+
+        $('.contactDrawerTab').on('click', function() {
+            $('#block-block-10').toggleClass('contactDrawerIn');
+            $('.contactDrawerContainer').toggleClass('containerShadow');
+        });
 
 
     });
