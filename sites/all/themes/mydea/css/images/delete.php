@@ -141,8 +141,7 @@
           received best-in-class service from their customer and prospect
           engagement services. We've been able to leverage the information that
           they've uncovered from customer engagement activities to win business
-          and strengthen customer relationship. Mydea delivers.<i
-            class="fa fa-quote-right"></i>
+          and strengthen customer relationship. Mydea delivers.<i class="fa fa-quote-right"></i>
           <div class="test-title"> – Senior Manager, Market Development</div>
         </div>
       </li>
@@ -155,9 +154,26 @@
           team. MyDea has helped rapidly grow the pipeline of prospects and
           assist with many other aspects of building market awareness. I would
           highly recommend MyDea Marketing to any organization looking to
-          penetrate new markets or scale their business.<i
-            class="fa fa-quote-right"></i>
+          penetrate new markets or scale their business.<i class="fa fa-quote-right"></i>
           <div class="test-title"> – Senior Manager, New Segments</div>
+        </div>
+      </li>
+      <li>
+        <div class="test-content">
+          <i class="fa fa-quote-left"></i>Mydeamarketing has been a crucial part of our overall go to market sales strategy.  Over the years their team has taken the initiative to learn our unique value proposition and evolve with our ever changing technology.  They continue to research and target new customers, providing valuable information on corporate infrastructure, systems and equipment used as well as direct introduction to point contacts and decision makers.  For the last 5 years they have provided our region with exceptional sales support from well qualified leads and campaign drivers to inside sales administration to trade show and marketing representation.  Mydeamarketing is a true business partner that hold themselves accountable for our marketing and revenue goals and continue to adapt to our ever changing world as new products are introduced.  Their partnership has become essential to us achieving and exceeding our targets and are a necessary part of the overall sales success plan.<i class="fa fa-quote-right"></i>
+          <div class="test-title"> – Territory Account Manager</div>
+        </div>
+      </li>
+      <li>
+        <div class="test-content">
+          <i class="fa fa-quote-left"></i>Coming Soon! Mydea is a high-value partner. I've
+          worked with them while leading account development teams at two
+          separate organizations over the past five years and have consistently
+          received best-in-class service from their customer and prospect
+          engagement services. We've been able to leverage the information that
+          they've uncovered from customer engagement activities to win business
+          and strengthen customer relationship. Mydea delivers.<i class="fa fa-quote-right"></i>
+          <div class="test-title"> – Senior Manager, Market Development</div>
         </div>
       </li>
     </ul>
