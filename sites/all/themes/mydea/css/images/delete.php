@@ -3,96 +3,44 @@
 ==============================================
 <div class="sections about_section">
   <div class="about-content">
-    <p>
-      We pride ourselves and our continued success on the ability to attract and
-      retain top-level talent and personalities that creates an office
-      atmosphere that continues to foster and
-      encourage new, innovative ideas to bring to our customers and projects.
-      With over 50 years of combined experience focused on business development,
-      market strategy and growth of our
-      customers, our talent and experience is our differentiator in the market
-      and is our most valued asset.
-    </p>
-    <p>
-      Located in Eagle, ID, just outside Idaho’s capital city of Boise, we are
-      continually ranked at the Top of the list of America’s Best Cities to live
-      in. Low crime rate, affordable cost of
-      living, great universities (Go Broncos) and a fast growing job market have
-      attracted and retained top young minds and talent. - Learn more about
-      Boise ID and why we are all so proud to
-      call it home.
-    </p>
-    <div class="about-download redButton"><a target="_BLANK"
-                                             href="/sites/default/files/Regional-Overview---General-1.pdf">Boise
-        Metro Regional Overview</a></div>
+    <p>We pride ourselves and our continued success on the ability to attract and retain top-level talent and personalities that creates an office atmosphere that continues to foster and encourage new, innovative ideas to bring to our customers and projects. With over 50 years of combined experience focused on business development, market strategy and growth of our customers, our talent and experience is our differentiator in the market and is our most valued asset.</p>
+    <p>Located in Eagle, ID, just outside Idaho’s capital city of Boise, we are continually ranked at the Top of the list of America’s Best Cities to live in. Low crime rate, affordable cost of living, great universities (Go Broncos) and a fast growing job market have attracted and retained top young minds and talent. - Learn more about Boise ID and why we are all so proud to call it home.</p>
+    <div class="about-download redButton"><a href="/sites/default/files/Regional-Overview---General-1.pdf" target="_BLANK">Boise Metro Regional Overview</a></div>
   </div>
   <div>
     <ul>
       <li class="first">
-        <div class="about-image"><img src="/sites/default/files/test1.jpg"/>
-        </div>
-        <div class="about-text">
-          Dustin joins Mydea Marketing with a degree in Business Communications
-          from Boise State. He brings insight in process optimization, warehouse
-          and inventory management and new
-          technologies integration. Dustin sets the tone for work ethic and
-          drive for MyDea Marketing. He enjoys all the outdoors that Idaho has
-          to offer and spends his falls hunting and
-          fishing in our beautiful mountains.
-          <div class="about-more"><a href="#" id="magicPopUp"
-                                     class="popAboutDustin">more</a></div>
+        <div class="about-image"><img src="/sites/default/files/dustin_0.jpg" /></div>
+        <div class="about-text">Dustin joins Mydea Marketing with a degree in Business Communications from Boise State. He brings insight in process optimization, warehouse and inventory management and new technologies integration. Dustin sets the tone for work ethic and drive for MyDea Marketing. He enjoys all the outdoors that Idaho has to offer and spends his falls hunting and fishing in our beautiful mountains.
+          <div class="about-more"><a class="popAboutDustin" href="#" id="magicPopUp">more</a></div>
         </div>
         <div class="about-whiteBar hideme">Dustin Bevins</div>
       </li>
       <li class="second">
-        <div class="about-image"><img alt=""
-                                      src="/sites/default/files/test2.jpg"/>
-        </div>
-        <div class="about-text">
-          As a graduate of Boise State with a degree in Business Management,
-          Jeff is the founder of MyDea Marketing. Jeff’s experience in sales
-          helped him to shape the understanding needed
-          to create a successful demand generation company. Jeff spends his free
-          time in the mountains of Idaho enjoying biking, hiking and
-          snowboarding whenever possible.
-          <div class="about-more"><a href="#" id="magicPopUp"
-                                     class="popAboutJeff">more</a></div>
-        </div>
-        <div class="about-whiteBar hideme">Jeff McCoy</div>
+        <div class="about-image"><img src="/sites/default/files/porter_0.jpg" /></div>
+        <div class="about-text">Porter joined MyDea Marketing in early January 2015 at the early age of 5.5 weeks old. Since joining the team, Porter has consistently set the standard for attendance and brings a relaxed attitude with him every day to work. His primary job responsibility is monitoring overall office cleanliness. He routinely checks everyone’s trash cans and is the first to take anyone’s unwanted lunch. Porter also works as security clearance for visitors and guests. His favorite hobby is fetching anything and everything and I think we can all agree that the office wouldn’t be the same without him.</div>
+        <div class="about-whiteBar hideme">Porter</div>
       </li>
       <li class="third">
-        <div class="about-image"><img alt=""
-                                      src="/sites/default/files/test3.jpg"/>
+        <div class="about-image"><img src="/sites/default/files/jeff_0.jpg" /></div>
+        <div class="about-text">As a graduate of Boise State with a degree in Business Management, Jeff is the founder of MyDea Marketing. Jeff’s experience in sales helped him to shape the understanding needed to create a successful demand generation company. Jeff spends his free time in the mountains of Idaho enjoying biking, hiking and snowboarding whenever possible.
+          <div class="about-more"><a class="popAboutJeff" href="#" id="magicPopUp">more</a></div>
         </div>
-        <div class="about-text">
-          Porter joined MyDea Marketing in early January 2015 at the early age
-          of 5.5 weeks old. Since joining the team, Porter has consistently set
-          the standard for attendance and brings a
-          relaxed attitude with him every day to work. His primary job
-          responsibility is monitoring overall office cleanliness. He routinely
-          checks everyone’s trash cans and is the first to
-          take anyone’s unwanted lunch. Porter also works as security clearance
-          for visitors and guests. His favorite hobby is fetching anything and
-          everything and I think we can all agree
-          that the office wouldn’t be the same without him.
-          <!--  <div class="about-more"><a href="#" id="magicPopUp" class="popAboutDustin">more</a></div> -->
-        </div>
-        <div class="about-whiteBar hideme">Porter</div>
+        <div class="about-whiteBar hideme">Jeff McCoy</div>
       </li>
     </ul>
   </div>
 </div>
+
 ==============================
 ==== Contact Section Page ====
 ==============================
-
-<div class="sections contact_section">
+<a name="contact"></a>
+<div id="contact" class="sections contact_section">
   <div class="contact-header">
     <h2>Contact Us</h2>
     <div class="contact-headerContent">
-      Thank you for your interest in MyDea. You can call, or complete and send
-      the web form to contact us. We'll contact you as soon as possible to start
-      our collaboration to increase your customer base.
+      We pride Mydea Marketing on our exceptional levels of professionalism and ability to seamlessly integrate as an extension of your teams. If you don’t see what you are specifically looking for please pick up the phone and give us a call. We have experience providing organizations with more support than could be listed in a simple website. We look forward to the opportunity to discuss your needs directly.
     </div>
   </div>
   <div class="footer-contactContainer">
@@ -188,7 +136,7 @@
 <!--    Tips &amp; Advice to help</h1>-->
   <h1>Services</h1>
 
-  <h2>your business <span>start up</span></h2>
+  <h2>Let us create the desire, develop the urgency and provide you with qualified prospects so you can focus on what you do best – <span>close business.</span></h2>
 
   <div class="boxes-6">
     <ul>
@@ -296,9 +244,15 @@ HOME SECTION
 <div class="sections home_section">
   <div class="logo"><img src="/sites/default/files/mydea_logo_white.png" /></div>
 
+  <div class="homeSectionContactInfo">
+    <div class="homeSectionContactPhone">208.853.1776</div>
+    <div class="homeSectionContact"><a class="homeSectionContactLink" href="#contact">Email Us</a></div>
+  </div>
+
   <h2>MyDea Marketing is an outsourced extension of your marketing and sales team. We are a passionate group of Account Development/Demand Generation professionals sole focus of helping your business drive market growth and pipeline.</h2>
 
-  <div class="textDiv">Let us create the desire, develop the urgency and provide you with qualified prospects so you can focus on what you do best – <span class="h2span">close business.</span></div>
+
+<!--  <div class="textDiv">Let us create the desire, develop the urgency and provide you with qualified prospects so you can focus on what you do best – <span class="h2span">close business.</span></div>-->
 
 <!--  <div class="boxes-3">-->
 <!--    <ul>-->
@@ -456,6 +410,7 @@ Contact Drawer
 <div class="contactDrawerContainer">
   <div class="contactDrawerContainerInner">
     <div class="contactDrawerContent">
+      <div class="contactDrawerPhone">Phone: 208.853.1776</div>
       <?php
       $node = node_load(7);
       webform_node_view($node, 'full');

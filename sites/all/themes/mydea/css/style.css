@@ -64,11 +64,12 @@
         width: 375px;
         float: left; }
       #block-block-10 .contactDrawerContainer .contactDrawerContainerInner .contactDrawerTab {
-        width: 200px;
+        width: 194px;
         position: absolute;
         padding: 0 0 0 21px;
-        right: -139px;
-        top: 60px;
+        right: -137px;
+        top: 57px;
+        height: 40px;
         float: left;
         color: #FF0000;
         font-size: 28px;
@@ -79,6 +80,10 @@
         box-shadow: 2px -1px 0 black;
         border-left: 1px solid white;
         cursor: pointer; }
+        #block-block-10 .contactDrawerContainer .contactDrawerContainerInner .contactDrawerTab .contentDrawerRotate {
+          position: relative;
+          right: -22px;
+          bottom: 37px; }
         #block-block-10 .contactDrawerContainer .contactDrawerContainerInner .contactDrawerTab i {
           position: relative;
           -webkit-transform: rotate(90deg);
@@ -133,6 +138,10 @@
         cursor: pointer; }
       .servicesPop .servicesPopInner .servicesPopInnerContent ul {
         margin: 20px 0 20px 20px; }
+      .servicesPop .servicesPopInner .servicesPopInnerContent .contactDrawerPhone {
+        font-family: lato-regular;
+        font-size: 17px;
+        text-transform: lowercase; }
 
 .serviceVisuallyHidden {
   opacity: 0; }
@@ -170,49 +179,80 @@
     height: 100%;
     padding-top: 40px;
     text-align: center; }
-    #block-nodeblock-2 .block-inner .sections div.textDiv {
-      color: white;
-      font-family: lato-regular;
-      color: #ff0000;
-      font-size: 30px;
-      width: 55%;
-      margin: 100px auto; }
-    #block-nodeblock-2 .block-inner .sections .boxes-3 {
-      padding-bottom: 30px; }
-      #block-nodeblock-2 .block-inner .sections .boxes-3 ul {
-        list-style: none;
-        margin: 0 auto;
-        width: 100%;
-        margin-bottom: 75px; }
-        #block-nodeblock-2 .block-inner .sections .boxes-3 ul li {
-          display: inline-block;
-          width: 25%;
-          background: rgba(255, 0, 0, 0.45);
-          margin: 20px;
-          padding: 0 20px;
-          color: white;
-          text-transform: uppercase;
-          font-size: 14px;
-          font-weight: bold;
-          height: 150px; }
-          #block-nodeblock-2 .block-inner .sections .boxes-3 ul li img {
-            position: relative;
-            top: 50%;
-            transform: translateY(-50%);
-            padding-right: 10px; }
-          #block-nodeblock-2 .block-inner .sections .boxes-3 ul li div {
-            position: relative;
-            top: 50%;
-            padding: 30px;
-            transform: translateY(-50%); }
+    #block-nodeblock-2 .block-inner .sections {
+      min-height: 600px; }
+      #block-nodeblock-2 .block-inner .sections div.textDiv {
+        color: white;
+        font-family: lato-regular;
+        color: #ff0000;
+        font-size: 30px;
+        width: 55%;
+        margin: 100px auto; }
+      #block-nodeblock-2 .block-inner .sections .boxes-3 {
+        padding-bottom: 30px; }
+        #block-nodeblock-2 .block-inner .sections .boxes-3 ul {
+          list-style: none;
+          margin: 0 auto;
+          width: 100%;
+          margin-bottom: 75px; }
+          #block-nodeblock-2 .block-inner .sections .boxes-3 ul li {
+            display: inline-block;
+            width: 25%;
+            background: rgba(255, 0, 0, 0.45);
+            margin: 20px;
+            padding: 0 20px;
+            color: white;
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: bold;
+            height: 150px; }
+            #block-nodeblock-2 .block-inner .sections .boxes-3 ul li img {
+              position: relative;
+              top: 50%;
+              transform: translateY(-50%);
+              padding-right: 10px; }
+            #block-nodeblock-2 .block-inner .sections .boxes-3 ul li div {
+              position: relative;
+              top: 50%;
+              padding: 30px;
+              transform: translateY(-50%); }
     #block-nodeblock-2 .block-inner .sections h2 {
       font-family: Lato-Regular;
       color: white;
       font-size: 30px;
-      line-height: 50px; }
+      line-height: 50px;
+      margin: 100px 20px; }
     #block-nodeblock-2 .block-inner span.h2span {
       color: #FF0000;
       font-family: Lato-Black; }
+    #block-nodeblock-2 .block-inner .homeSectionContactInfo {
+      float: left;
+      width: 80%;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%); }
+      #block-nodeblock-2 .block-inner .homeSectionContactInfo .homeSectionContactPhone {
+        float: left;
+        width: 50%;
+        text-align: right;
+        padding-right: 40px;
+        font-family: lato-regular;
+        font-size: 22px;
+        color: white;
+        margin-top: 10px; }
+      #block-nodeblock-2 .block-inner .homeSectionContactInfo .homeSectionContact {
+        float: left;
+        width: 50%;
+        text-align: left;
+        padding-left: 40px;
+        margin-top: 10px; }
+        #block-nodeblock-2 .block-inner .homeSectionContactInfo .homeSectionContact a {
+          font-family: lato-regular;
+          font-size: 22px;
+          color: white; }
+        #block-nodeblock-2 .block-inner .homeSectionContactInfo .homeSectionContact :hover {
+          color: white;
+          text-decoration: underline; }
 
 /*******************************/
 /********** SECTION 2 **********/
@@ -245,12 +285,13 @@
       margin: 60px auto auto 0;
       width: 100%; }
       #block-nodeblock-3 .block-inner .services_section .boxes-6 ul li {
+        background: rgba(255, 0, 0, 0.3);
+        padding: 10px;
         display: inline-block;
         width: 30%;
         margin: 10px 0 30px 0;
-        padding: 0;
         color: white;
-        font-size: 13px;
+        font-size: 16px;
         font-family: Arial;
         font-weight: normal; }
         #block-nodeblock-3 .block-inner .services_section .boxes-6 ul li .box-title {
@@ -303,7 +344,7 @@
           color: white;
           font-size: 14px;
           font-weight: bold;
-          height: 315px; }
+          height: 271px; }
           #block-nodeblock-4 .block-inner .testimonials_section ul li div.test-content {
             padding: 15px 10px;
             text-align: left; }

@@ -12,7 +12,6 @@
   font-style: normal;
 }
 
-
 #preface .block {
   margin-bottom: 0px;
 }
@@ -57,62 +56,69 @@
     background: rgba(255, 0, 0, .50);
   }
 }
+
 #block-block-10 {
-  width:575px;
-  position:fixed;
-  z-index:200;
-  left:0;
+  width: 575px;
+  position: fixed;
+  z-index: 200;
+  left: 0;
   transition: all 0.5s linear;
 
   .contactDrawerContainer {
-    float:left;
-    margin:0 auto;
-    width:415px;
-    position:relative;
-    padding:20px;
-    background:white;
+    float: left;
+    margin: 0 auto;
+    width: 415px;
+    position: relative;
+    padding: 20px;
+    background: white;
     border-radius: 0 0 5px 0;
-    top:20px;
+    top: 20px;
     .contactDrawerContainerInner {
-      position:relative;
+      position: relative;
       .contactDrawerContent {
         width: 375px;
-        float:left;
+        float: left;
       }
       .contactDrawerTab {
-        width:200px;
-        position:absolute;
-        padding:0 0 0 21px;
-        right:-139px;
-        top:60px;
-        float:left;
-        color:#FF0000;
-        font-size:28px;
+        width: 194px;
+        position: absolute;
+        padding: 0 0 0 21px;
+        right: -137px;
+        top: 57px;
+        height: 40px;
+        float: left;
+        color: #FF0000;
+        font-size: 28px;
         font-family: Lato-Black;
-        transform:rotate(90deg);
-        background:white;
-        border-radius:5px 5px 0 0;
-        box-shadow:2px -1px 0 black;
-        border-left:1px solid white;
+        transform: rotate(90deg);
+        background: white;
+        border-radius: 5px 5px 0 0;
+        box-shadow: 2px -1px 0 black;
+        border-left: 1px solid white;
         cursor: pointer;
         .contentDrawerRotate {
-
+          position: relative;
+          right: -22px;
+          bottom: 37px;
         }
         i {
-          position:relative;
-          -webkit-transform:rotate(90deg);
-          right:11px;
+          position: relative;
+          -webkit-transform: rotate(90deg);
+          right: 11px;
         }
       }
     }
   }
 }
+
 .containerShadow {
-  box-shadow:3px 2px 4px black;
+  box-shadow: 3px 2px 4px black;
 }
+
 .contactDrawerIn {
-  left:-415px !important;
+  left: -415px !important;
 }
+
 .servicesPop {
   background: rgba(0, 0, 0, .70);
   height: 100%;
@@ -163,6 +169,11 @@
         margin: 20px 0 20px 20px;
         li {
         }
+      }
+      .contactDrawerPhone {
+        font-family: lato-regular;
+        font-size: 17px;
+        text-transform: lowercase;
       }
     }
   }
@@ -226,10 +237,11 @@
     text-align: center;
 
     .sections {
+      min-height: 600px;
       div.textDiv {
         color: white;
         font-family: lato-regular;
-        color:#ff0000;
+        color: #ff0000;
         font-size: 30px;
         width: 55%;
         margin: 100px auto;
@@ -273,10 +285,45 @@
       color: white;
       font-size: 30px;
       line-height: 50px;
+      margin: 100px 20px;
     }
     span.h2span {
       color: #FF0000;
       font-family: Lato-Black;
+    }
+    .homeSectionContactInfo {
+      float: left;
+      width: 80%;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      .homeSectionContactPhone {
+        float: left;
+        width: 50%;
+        text-align: right;
+        padding-right: 40px;
+        font-family: lato-regular;
+        font-size: 22px;
+        color: white;
+        margin-top: 10px;
+      }
+      .homeSectionContact {
+        float: left;
+        width: 50%;
+        text-align: left;
+        padding-left: 40px;
+        margin-top: 10px;
+        a {
+          font-family: lato-regular;
+          font-size: 22px;
+          color: white;
+
+        }
+        :hover {
+          color: white;
+          text-decoration: underline;
+        }
+      }
     }
   }
 }
@@ -303,7 +350,7 @@
         color: white;
         line-height: 40px;
         text-transform: uppercase;
-        margin:0 0 50px;
+        margin: 0 0 50px;
       }
       h2 {
         font-family: Lato-Black;
@@ -320,12 +367,13 @@
           margin: 60px auto auto 0;
           width: 100%;
           li {
+            background:rgba(255,0,0, .30);
+            padding:10px;
             display: inline-block;
             width: 30%;
             margin: 10px 0 30px 0;
-            padding: 0;
             color: white;
-            font-size: 13px;
+            font-size: 16px;
             font-family: Arial;
             font-weight: normal;
             .box-title {
@@ -396,7 +444,7 @@
           color: white;
           font-size: 14px;
           font-weight: bold;
-          height: 315px;
+          height: 271px;
           div.test-content {
             padding: 15px 10px;
             text-align: left;
@@ -579,20 +627,20 @@
         }
         .footer-socialMedia {
           .socialMedia {
-            float:left;
-            padding:29px 0 0;
-            width:24%;
+            float: left;
+            padding: 29px 0 0;
+            width: 24%;
             a {
-              font-size:45px;
-              color:white;
+              font-size: 45px;
+              color: white;
               transition: all 200ms linear;
             }
             :hover {
-              color:#ff0000;
+              color: #ff0000;
               transition: all 200ms linear;
             }
             span {
-              display:none;
+              display: none;
             }
           }
         }
@@ -608,7 +656,7 @@
           color: white;
           text-align: left;
           font-size: 18px;
-          padding-left:27px;
+          padding-left: 27px;
           .contac-aboutTitle {
             font-size: 20px;
             margin-bottom: 10px;
@@ -626,10 +674,10 @@
             width: 400px;
             input {
               width: 70%;
-              background:rgba(255,255,255, .65);
+              background: rgba(255, 255, 255, .65);
             }
             :focus {
-              border-color:#ff0000;
+              border-color: #ff0000;
             }
             label {
               float: left;
@@ -639,10 +687,10 @@
             }
             textarea {
               width: 70%;
-              background:rgba(255,255,255, .65);
+              background: rgba(255, 255, 255, .65);
             }
             :focus {
-              border-color:#ff0000;
+              border-color: #ff0000;
             }
             .grippie {
               display: none;
@@ -655,7 +703,7 @@
               margin-right: 31px;
             }
             button:hover {
-              background: rgba(255,0,0,.5);
+              background: rgba(255, 0, 0, .5);
             }
           }
         }
