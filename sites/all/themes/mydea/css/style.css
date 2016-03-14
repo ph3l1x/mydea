@@ -245,7 +245,10 @@
         width: 50%;
         text-align: left;
         padding-left: 40px;
-        margin-top: 10px; }
+        margin-top: 10px;
+        color: white;
+        font-size: 22px;
+        font-family: lato-regular; }
         #block-nodeblock-2 .block-inner .homeSectionContactInfo .homeSectionContact a {
           font-family: lato-regular;
           font-size: 22px;
@@ -268,18 +271,18 @@
     text-align: center; }
     #block-nodeblock-3 .block-inner .services_section h1 {
       font-family: Lato-black;
-      font-size: 46px;
+      font-size: 52px;
       color: white;
       line-height: 40px;
       text-transform: uppercase;
       margin: 0 0 50px; }
     #block-nodeblock-3 .block-inner .services_section h2 {
       font-family: Lato-Black;
-      font-size: 38px;
+      font-size: 34px;
       margin-top: 0;
       text-transform: uppercase; }
       #block-nodeblock-3 .block-inner .services_section h2 span {
-        color: #FF0000; }
+        color: black; }
     #block-nodeblock-3 .block-inner .services_section .boxes-6 ul {
       list-style: none;
       margin: 60px auto auto 0;
@@ -325,18 +328,18 @@
   background: url('images/sectionTestimonialsResize.jpg');
   background-size: cover;
   background-position: center -200px; }
-  #block-nodeblock-4 .block-inner {
+  #block-nodeblock-4 > .block-inner {
     background: rgba(0, 0, 0, 0.55);
     height: 100%;
     padding: 50px 15px;
     text-align: center; }
-    #block-nodeblock-4 .block-inner .testimonials_section {
+    #block-nodeblock-4 > .block-inner .testimonials_section {
       padding-bottom: 30px; }
-      #block-nodeblock-4 .block-inner .testimonials_section ul {
+      #block-nodeblock-4 > .block-inner .testimonials_section ul {
         list-style: none;
         margin: 96px 0;
         width: 100%; }
-        #block-nodeblock-4 .block-inner .testimonials_section ul li {
+        #block-nodeblock-4 > .block-inner .testimonials_section ul li {
           float: left;
           width: 45%;
           background: rgba(255, 0, 0, 0.45);
@@ -345,18 +348,35 @@
           font-size: 14px;
           font-weight: bold;
           height: 271px; }
-          #block-nodeblock-4 .block-inner .testimonials_section ul li div.test-content {
+          #block-nodeblock-4 > .block-inner .testimonials_section ul li div.test-content {
             padding: 15px 10px;
             text-align: left; }
-            #block-nodeblock-4 .block-inner .testimonials_section ul li div.test-content i.fa-quote-left {
+            #block-nodeblock-4 > .block-inner .testimonials_section ul li div.test-content i.fa-quote-left {
               margin-right: 10px; }
-            #block-nodeblock-4 .block-inner .testimonials_section ul li div.test-content i.fa-quote-right {
+            #block-nodeblock-4 > .block-inner .testimonials_section ul li div.test-content i.fa-quote-right {
               margin-left: 10px; }
-            #block-nodeblock-4 .block-inner .testimonials_section ul li div.test-content i {
+            #block-nodeblock-4 > .block-inner .testimonials_section ul li div.test-content i {
               font-size: 17px; }
-            #block-nodeblock-4 .block-inner .testimonials_section ul li div.test-content div.test-title {
+            #block-nodeblock-4 > .block-inner .testimonials_section ul li div.test-content div.test-title {
               margin-top: 8px;
               font-style: italic; }
+      #block-nodeblock-4 > .block-inner .testimonials_section .block-inner {
+        max-width: 900px;
+        margin: 0 auto;
+        margin-top: 100px;
+        display: block; }
+        #block-nodeblock-4 > .block-inner .testimonials_section .block-inner .views-field-body {
+          max-width: 900px;
+          color: white;
+          font-family: Lato-Regular;
+          font-size: 20px;
+          padding: 20px; }
+          #block-nodeblock-4 > .block-inner .testimonials_section .block-inner .views-field-body i.fa-quote-left {
+            margin-right: 10px; }
+          #block-nodeblock-4 > .block-inner .testimonials_section .block-inner .views-field-body i.fa-quote-right {
+            margin-left: 10px; }
+          #block-nodeblock-4 > .block-inner .testimonials_section .block-inner .views-field-body i {
+            font-size: 22px; }
 
 /*******************************/
 /********** SECTION 4 **********/

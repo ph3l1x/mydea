@@ -313,6 +313,9 @@
         text-align: left;
         padding-left: 40px;
         margin-top: 10px;
+        color: white;
+        font-size: 22px;
+        font-family: lato-regular;
         a {
           font-family: lato-regular;
           font-size: 22px;
@@ -346,7 +349,7 @@
     .services_section {
       h1 {
         font-family: Lato-black;
-        font-size: 46px;
+        font-size: 52px;
         color: white;
         line-height: 40px;
         text-transform: uppercase;
@@ -354,11 +357,11 @@
       }
       h2 {
         font-family: Lato-Black;
-        font-size: 38px;
+        font-size: 34px;
         margin-top: 0;
         text-transform: uppercase;
         span {
-          color: #FF0000;
+          color: black;
         }
       }
       .boxes-6 {
@@ -367,8 +370,8 @@
           margin: 60px auto auto 0;
           width: 100%;
           li {
-            background:rgba(255,0,0, .30);
-            padding:10px;
+            background: rgba(255, 0, 0, .30);
+            padding: 10px;
             display: inline-block;
             width: 30%;
             margin: 10px 0 30px 0;
@@ -424,7 +427,7 @@
   background-size: cover;
   background-position: center -200px;
 
-  .block-inner {
+  > .block-inner {
     background: rgba(0, 0, 0, 0.55);
     height: 100%;
     padding: 50px 15px;
@@ -461,6 +464,29 @@
               margin-top: 8px;
               font-style: italic;
             }
+          }
+        }
+      }
+      .block-inner {
+        //    background: rgba(255, 0, 0, 0.45);
+        max-width: 900px;
+        margin: 0 auto;
+        margin-top: 100px;
+        display: block;
+        .views-field-body {
+          max-width: 900px;
+          color: white;
+          font-family: Lato-Regular;
+          font-size: 20px;
+          padding: 20px;
+          i.fa-quote-left {
+            margin-right: 10px;
+          }
+          i.fa-quote-right {
+            margin-left: 10px;
+          }
+          i {
+            font-size: 22px;
           }
         }
       }
@@ -626,6 +652,10 @@
           width: 300px;
         }
         .footer-socialMedia {
+          //position: relative;
+          //left: 50%;
+          //transform: translateX(-50%);
+
           .socialMedia {
             float: left;
             padding: 29px 0 0;
