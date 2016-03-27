@@ -42,6 +42,16 @@
   /*******************************/
   /********** SECTION 4 **********/
   /*******************************/
+  #block-nodeblock-5 .block-inner .about_section .about-content .about-download a {
+    font-size: 14px;
+    padding: 10px; }
   /*******************************/
   /********** SECTION 5 **********/
-  /*******************************/ }
+  /*******************************/
+  #block-nodeblock-6 .block-inner .contact_section .footer-contactContainer .contact-form form input {
+    width: 50%; }
+  #block-nodeblock-6 .block-inner .contact_section .footer-contactContainer .contact-form form textarea {
+    width: 50%; }
+  #block-nodeblock-6 .block-inner .contact_section .footer-contactContainer .contact-form form button {
+    float: none;
+    margin: 0; } }

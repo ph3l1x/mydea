@@ -3,6 +3,7 @@
     .servicesPopInner {
       .servicesPopInnerContent {
         .popover-p {
+          padding:15px;
         }
         h1 {
           font-size:32px;
@@ -40,6 +41,8 @@
         }
       }
       .sections h2 {
+        margin:130px 20px;
+        clear:both;
 
       }
     }
@@ -60,7 +63,7 @@
         .boxes-6 {
           ul {
             li {
-              padding: 0 15px;
+              padding: 10px 15px;
               .box-title {
                 font-size: 14px;
               }
@@ -130,6 +133,7 @@
         }
         ul {
           li {
+            max-height:280px;
             div.about-whiteBar {
             }
             div.about-image {
@@ -139,6 +143,8 @@
             .about-imageHover {
             }
             div.about-text {
+              font-size:12px;
+              padding: 30px 20px 20px 20px;
               .about-more {
                 a {
                 }
@@ -170,6 +176,7 @@
           }
           .footer-socialMedia {
             .socialMedia {
+              padding: 0;
               a {
               }
               :hover {

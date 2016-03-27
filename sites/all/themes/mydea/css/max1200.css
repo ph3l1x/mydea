@@ -1,4 +1,6 @@
 @media only screen and (max-width: 1200px) {
+  .servicesPop .servicesPopInner .servicesPopInnerContent .popover-p {
+    padding: 15px; }
   .servicesPop .servicesPopInner .servicesPopInnerContent h1 {
     font-size: 32px; }
   /*******************************/
@@ -6,11 +8,14 @@
   /*******************************/
   #block-nodeblock-2 .block-inner .sections .boxes-3 ul li {
     padding: 0 10px; }
+  #block-nodeblock-2 .block-inner .sections h2 {
+    margin: 130px 20px;
+    clear: both; }
   /*******************************/
   /********** SECTION 2 **********/
   /*******************************/
   #block-nodeblock-3 .block-inner #node-3 .boxes-6 ul li {
-    padding: 0 15px; }
+    padding: 10px 15px; }
     #block-nodeblock-3 .block-inner #node-3 .boxes-6 ul li .box-title {
       font-size: 14px; }
   /*******************************/
@@ -19,6 +24,13 @@
   /*******************************/
   /********** SECTION 4 **********/
   /*******************************/
+  #block-nodeblock-5 .block-inner .about_section ul li {
+    max-height: 280px; }
+    #block-nodeblock-5 .block-inner .about_section ul li div.about-text {
+      font-size: 12px;
+      padding: 30px 20px 20px 20px; }
   /*******************************/
   /********** SECTION 5 **********/
-  /*******************************/ }
+  /*******************************/
+  #block-nodeblock-6 .block-inner .contact_section .contact-logo .footer-socialMedia .socialMedia {
+    padding: 0; } }

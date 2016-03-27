@@ -137,7 +137,11 @@
           }
         }
         ul {
+          margin:0px 0px 10px;
           li {
+            width:90%;
+            clear:both;
+            margin-bottom:20px;
             div.about-whiteBar {
             }
             div.about-image {
@@ -147,6 +151,7 @@
             .about-imageHover {
             }
             div.about-text {
+              font-size:13px;
               .about-more {
                 a {
                 }
@@ -173,11 +178,18 @@
           }
         }
         .footer {
+          width: inherit;
+          padding: inherit;
         }
         .contact-logo {
           img {
           }
           .footer-socialMedia {
+            .linkedinx {
+              position:relative;
+              left:50%;
+              tranform: translateX(-50%);
+            }
             .socialMedia {
               a {
               }
@@ -190,12 +202,17 @@
         }
         .footer-contactContainer {
           .contact-about {
+            float:left;
+            clear:both;
+            width:40%;
             .contac-aboutTitle {
             }
             .contact-aboutPhone {
             }
           }
           .contact-form {
+            float:left;
+            width:50%;
             form {
               input {
               }
@@ -221,4 +238,7 @@
       }
     }
   }
+}
+#block-block-10 {
+  width:inherit;
 }

@@ -148,7 +148,8 @@
         .about-content {
           .about-download {
             a {
-
+              font-size:14px;
+              padding:10px;
             }
           }
         }
@@ -215,12 +216,14 @@
           .contact-form {
             form {
               input {
+                width:50%;
               }
               :focus {
               }
               label {
               }
               textarea {
+                width:50%;
               }
               :focus {
               }
@@ -229,6 +232,8 @@
               .form-textarea-wrapper {
               }
               button {
+                float: none;
+                margin: 0;
               }
               button:hover {
               }

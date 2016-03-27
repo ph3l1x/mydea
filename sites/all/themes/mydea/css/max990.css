@@ -25,6 +25,31 @@
   /*******************************/
   /********** SECTION 4 **********/
   /*******************************/
+  #block-nodeblock-5 .block-inner .about_section ul {
+    margin: 0px 0px 10px; }
+    #block-nodeblock-5 .block-inner .about_section ul li {
+      width: 90%;
+      clear: both;
+      margin-bottom: 20px; }
+      #block-nodeblock-5 .block-inner .about_section ul li div.about-text {
+        font-size: 13px; }
   /*******************************/
   /********** SECTION 5 **********/
-  /*******************************/ }
+  /*******************************/
+  #block-nodeblock-6 .block-inner .contact_section .footer {
+    width: inherit;
+    padding: inherit; }
+  #block-nodeblock-6 .block-inner .contact_section .contact-logo .footer-socialMedia .linkedinx {
+    position: relative;
+    left: 50%;
+    tranform: translateX(-50%); }
+  #block-nodeblock-6 .block-inner .contact_section .footer-contactContainer .contact-about {
+    float: left;
+    clear: both;
+    width: 40%; }
+  #block-nodeblock-6 .block-inner .contact_section .footer-contactContainer .contact-form {
+    float: left;
+    width: 50%; } }
+
+#block-block-10 {
+  width: inherit; }

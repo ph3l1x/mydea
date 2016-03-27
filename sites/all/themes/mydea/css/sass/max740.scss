@@ -28,10 +28,31 @@
     .logo img {
       width: 40%;
     }
-
     .block-inner {
 
       .sections {
+        .homeSectionContactInfo {
+          .homeSectionContactPhone {
+            float:none;
+            width: inherit;
+            text-align: center;
+            padding: 0;
+            font-size:16px;
+            width:100%;
+          }
+          .homeSectionContact {
+            float:none;
+            width: 100%;
+            font-size:16px;
+            text-align:center;
+            padding:0;
+            margin-top:20px;
+            a.homeSectionContactLink {
+              font-size:16px;
+            }
+          }
+        }
+
         div.textDiv {
           width: 80%;
         }
@@ -55,6 +76,7 @@
       }
       .sections h2 {
         font-size: 26px;
+        line-height:35px;
       }
     }
   }
@@ -142,7 +164,8 @@
         .about-content {
           .about-download {
             a {
-
+              padding: 10px;
+              font-size:19px;
             }
           }
         }
@@ -181,6 +204,7 @@
           h2 {
           }
           .contact-headerContent {
+            width:inherit;
           }
         }
         .footer {
@@ -201,12 +225,20 @@
         }
         .footer-contactContainer {
           .contact-about {
-            .contac-aboutTitle {
+            float:left;
+            clear:both;
+            width:100%;
+            text-align:center;
+            margin-top:25px;
+            .contact-aboutTitle {
             }
             .contact-aboutPhone {
             }
           }
           .contact-form {
+            float:left;
+            width:100%;
+            margin-top:20px;
             form {
               input {
               }
