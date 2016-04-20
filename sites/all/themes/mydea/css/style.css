@@ -110,6 +110,8 @@
   opacity: 1; }
   .servicesPop .servicesPopInner {
     width: 41%;
+    max-height: 90%;
+    overflow: auto;
     background: white;
     margin: 0 auto;
     position: relative;
@@ -283,18 +285,26 @@
       text-transform: uppercase; }
       #block-nodeblock-3 .block-inner .services_section h2 span {
         color: black; }
+    #block-nodeblock-3 .block-inner .services_section .boxes-6 .center2box ul {
+      width: 100%;
+      float: left;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%); }
+    #block-nodeblock-3 .block-inner .services_section .boxes-6 > ul {
+      margin: 60px auto auto 0; }
     #block-nodeblock-3 .block-inner .services_section .boxes-6 ul {
       list-style: none;
-      margin: 60px auto auto 0;
       width: 100%; }
       #block-nodeblock-3 .block-inner .services_section .boxes-6 ul li {
         background: rgba(255, 0, 0, 0.3);
         padding: 10px;
-        display: inline-block;
+        float: left;
         width: 30%;
-        margin: 10px 0 30px 0;
+        margin: 10px 30px 30px 0;
         color: white;
         font-size: 16px;
+        min-height: 325px;
         font-family: Arial;
         font-weight: normal; }
         #block-nodeblock-3 .block-inner .services_section .boxes-6 ul li .box-title {
